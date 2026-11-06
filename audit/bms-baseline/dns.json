@@ -1,0 +1,128 @@
+{
+  "collected_at_utc": "2026-11-06T14:13:23.3064641Z",
+  "resolver": "system default, DNS only",
+  "queries": [
+    {
+      "name": "bmstechnik.pl",
+      "type": "A",
+      "answers": [
+        {
+          "Name": "bmstechnik.pl",
+          "Type": 1,
+          "Section": 1,
+          "TTL": 929,
+          "IPAddress": "188.210.222.99",
+          "NameHost": null,
+          "NameExchange": null,
+          "Preference": null
+        }
+      ]
+    },
+    {
+      "name": "bmstechnik.pl",
+      "type": "AAAA",
+      "answers": [
+        {
+          "Name": "bmstechnik.pl",
+          "Type": 6,
+          "Section": 2,
+          "TTL": 1341,
+          "IPAddress": null,
+          "NameHost": null,
+          "NameExchange": null,
+          "Preference": null
+        }
+      ]
+    },
+    {
+      "name": "www.bmstechnik.pl",
+      "type": "A",
+      "answers": [
+        {
+          "Name": "www.bmstechnik.pl",
+          "Type": 1,
+          "Section": 1,
+          "TTL": 2000,
+          "IPAddress": "188.210.222.99",
+          "NameHost": null,
+          "NameExchange": null,
+          "Preference": null
+        }
+      ]
+    },
+    {
+      "name": "www.bmstechnik.pl",
+      "type": "AAAA",
+      "answers": [
+        {
+          "Name": "bmstechnik.pl",
+          "Type": 6,
+          "Section": 2,
+          "TTL": 1341,
+          "IPAddress": null,
+          "NameHost": null,
+          "NameExchange": null,
+          "Preference": null
+        }
+      ]
+    },
+    {
+      "name": "www.bmstechnik.pl",
+      "type": "CNAME",
+      "answers": [
+        {
+          "Name": "bmstechnik.pl",
+          "Type": 6,
+          "Section": 2,
+          "TTL": 1341,
+          "IPAddress": null,
+          "NameHost": null,
+          "NameExchange": null,
+          "Preference": null
+        }
+      ]
+    },
+    {
+      "name": "bmstechnik.pl",
+      "type": "NS",
+      "answers": [
+        {
+          "Name": "bmstechnik.pl",
+          "Type": 2,
+          "Section": 1,
+          "TTL": 2000,
+          "IPAddress": null,
+          "NameHost": "ns2.seohost.pl",
+          "NameExchange": null,
+          "Preference": null
+        },
+        {
+          "Name": "bmstechnik.pl",
+          "Type": 2,
+          "Section": 1,
+          "TTL": 2000,
+          "IPAddress": null,
+          "NameHost": "ns1.seohost.pl",
+          "NameExchange": null,
+          "Preference": null
+        }
+      ]
+    },
+    {
+      "name": "bmstechnik.pl",
+      "type": "MX",
+      "answers": [
+        {
+          "Name": "bmstechnik.pl",
+          "Type": 15,
+          "Section": 1,
+          "TTL": 2000,
+          "IPAddress": null,
+          "NameHost": null,
+          "NameExchange": "mail.bmstechnik.pl",
+          "Preference": 10
+        }
+      ]
+    }
+  ]
+}

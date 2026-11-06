@@ -1,0 +1,22 @@
+{
+  "name": "bms-technik",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.23.4"
+  },
+  "scripts": {
+    "prepare:audit": "node scripts/prepare-audit.mjs",
+    "dev": "npm run prepare:audit && astro dev",
+    "build": "npm run prepare:audit && astro build",
+    "preview": "wrangler dev --local --ip 127.0.0.1",
+    "test": "npm run build && node --test test/build.test.mjs test/routes.test.mjs test/contact.test.mjs",
+    "test:http": "node --test test/http.test.mjs",
+    "deploy:dry-run": "npm run build && wrangler deploy --dry-run"
+  },
+  "devDependencies": {
+    "astro": "7.4.7",
+    "cheerio": "1.2.0",
+    "wrangler": "4.158.0"
+  }
+}

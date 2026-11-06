@@ -1,0 +1,12 @@
+node_modules/
+.npm-cache/
+.astro/
+.wrangler/
+dist/
+generated/
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+

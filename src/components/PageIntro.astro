@@ -1,0 +1,16 @@
+---
+import Icon from './Icon.astro';
+interface Props { label: string; title: string; intro?: string; index?: string; }
+const { label, title, intro, index } = Astro.props;
+---
+<section class="page-intro blueprint">
+  <div class="shell intro-inner">
+    <div>
+      <a class="back-link" href="/"><Icon name="left" /> Strona główna</a>
+      <p class="eyebrow">{label}</p>
+      <h1>{title}</h1>
+      {intro && <p class="lead">{intro}</p>}
+    </div>
+    {index && <span class="intro-index" aria-hidden="true">{index}</span>}
+  </div>
+</section>

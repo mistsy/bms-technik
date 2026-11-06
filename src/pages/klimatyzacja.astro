@@ -1,0 +1,71 @@
+---
+import Layout from '../components/Layout.astro';
+import Icon from '../components/Icon.astro';
+import PageIntro from '../components/PageIntro.astro';
+import Gallery from '../components/Gallery.astro';
+import ServiceSteps from '../components/ServiceSteps.astro';
+import ContactBanner from '../components/ContactBanner.astro';
+import { airConditioning } from '../data/site';
+
+const steps = [
+  { name: 'Opieka serwisowa', icon: 'maintenance.png' },
+  { name: 'Naprawy gwarancyjne i pogwarancyjne', icon: 'gwarancja.svg' },
+];
+const checks = [
+  'Czyszczenie i dezynfekcja parownika (jednostka wewnętrzna)',
+  'Czyszczenie skraplacza (jednostka zewnętrzna)',
+  'Czyszczenie i dezynfekcja filtrów',
+  'Pomiar parametrów elektrycznych',
+  'Kontrola warunków zasilania',
+  'Kontrola szczelności i drożności odprowadzenia skroplin',
+  'Kontrola szczelności instalacji chłodniczej',
+  'Kontrola temperatur i ciśnień pracy urządzenia',
+  'Kontrola ilości czynnika chłodniczego',
+  'Uzupełnienie lub wymiana czynnika chłodniczego',
+];
+---
+<Layout path="/klimatyzacja/" hasGallery description="Dobór, montaż i uruchomienie klimatyzacji w domu, mieszkaniu lub biurze. Przykłady realizacji, opieka serwisowa i przeglądy BMS Technik.">
+  <PageIntro index="02" label="Usługi / Klimatyzacja" title="Klimatyzacja" intro="Dobrze dobrana klimatyzacja zapewnia komfort podczas pracy i odpoczynku. Pomożemy wybrać urządzenia, a następnie wykonamy ich montaż i uruchomienie." />
+  <section class="section shell" id="realizacje" aria-labelledby="klimatyzacja-realizacje">
+    <div class="section-header"><div><p class="eyebrow">Instalacje i realizacje</p><h2 id="klimatyzacja-realizacje">Klimatyzacja w domu i biurze</h2></div></div>
+    <div class="accordion">
+      <details name="typ-instalacji" open>
+        <summary><span class="figure-index" aria-hidden="true">01</span><span>Dom i mieszkanie</span><Icon name="plus" /></summary>
+        <div class="accordion-content">
+          <div class="prose">
+            <p>W domach najczęściej montujemy urządzenia naścienne. Ich montaż nie wymaga osobnej przestrzeni technicznej, a dostępne wzory pozwalają dopasować jednostkę do wnętrza.</p>
+            <p>Jeśli zależy Państwu na cichej pracy systemu, polecamy urządzenia kanałowe montowane na strychu. Pozwalają one przenieść obsługę serwisową poza część mieszkalną. Rozmowa o Państwa potrzebach pomaga nam przygotować rzetelną wycenę i ofertę.</p>
+          </div>
+          <h3>Przykłady realizacji w domach</h3>
+          <Gallery label="Klimatyzacja w domu i mieszkaniu" photos={airConditioning.slice(0, 2)} />
+        </div>
+      </details>
+      <details name="typ-instalacji">
+        <summary><span class="figure-index" aria-hidden="true">02</span><span>Biuro</span><Icon name="plus" /></summary>
+        <div class="accordion-content">
+          <div class="prose">
+            <p>W biurach system klimatyzacji powinien zapewnić komfort również przy długotrwałej pracy. Dobór urządzeń zależy od warunków pracy i od tego, jak wykorzystywane są pomieszczenia.</p>
+            <p>Często stosuje się urządzenia kasetonowe, które rozprowadzają chłodne powietrze w kilku kierunkach. Gdy ich montaż jest niemożliwy, można zastosować jednostki podstropowe lub naścienne.</p>
+          </div>
+          <h3>Przykłady realizacji w biurach</h3>
+          <Gallery label="Klimatyzacja w biurze" photos={airConditioning.slice(2)} />
+        </div>
+      </details>
+    </div>
+  </section>
+  <section class="section section-muted" aria-labelledby="serwis">
+    <div class="shell">
+      <div class="section-header"><div><p class="eyebrow">Utrzymanie instalacji</p><h2 id="serwis">Przeglądy okresowe i serwis</h2></div></div>
+      <ServiceSteps items={steps} />
+      <div class="prose gallery-note">
+        <p>Regularne czyszczenie i dezynfekcja wymienników ograniczają rozwój grzybów i bakterii. Drożność wymienników zewnętrznych i odpowiednia ilość czynnika chłodniczego sprzyjają bezawaryjnej pracy urządzeń i pomagają ograniczyć koszty eksploatacji.</p>
+        <p>Przy normalnych warunkach pracy zalecamy przegląd co sześć miesięcy. Przy dużym zapyleniu, pracy całodobowej lub skrajnych temperaturach częstotliwość ustalamy indywidualnie.</p>
+      </div>
+    </div>
+  </section>
+  <section class="section shell split-section" aria-labelledby="czynnosci">
+    <div><p class="eyebrow">Zakres przeglądu</p><h2 id="czynnosci">Co sprawdzamy</h2></div>
+    <ul class="check-list">{checks.map((check) => <li>{check}</li>)}</ul>
+  </section>
+  <ContactBanner text="Chętnie odpowiemy na pytania o dobór, montaż i serwis klimatyzacji." />
+</Layout>

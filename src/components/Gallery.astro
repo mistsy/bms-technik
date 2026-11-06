@@ -1,0 +1,25 @@
+---
+import Icon from './Icon.astro';
+interface Props {
+  label: string;
+  photos: { thumb: string; full: string; width: number; height: number; alt: string; category?: string }[];
+  featured?: boolean;
+}
+const { label, photos, featured = false } = Astro.props;
+---
+<ul class:list={['photo-grid', { 'photo-grid-featured': featured }]} data-gallery aria-label={label}>
+  {photos.map((photo, index) => (
+    <li>
+      <a class="photo-link" href={photo.full} data-photo data-caption={photo.alt} aria-label={'Powiększ zdjęcie: ' + (photo.category ? photo.category + ' – ' : '') + photo.alt}>
+        <span class="photo-frame">
+          <img src={photo.thumb} alt={photo.alt} width={photo.width} height={photo.height} loading="lazy" decoding="async" />
+          <span class="photo-open"><Icon name="plus" /></span>
+        </span>
+        <span class="photo-caption">
+          <span>{photo.category ?? photo.alt}</span>
+          <span class="figure-index" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span>
+        </span>
+      </a>
+    </li>
+  ))}
+</ul>

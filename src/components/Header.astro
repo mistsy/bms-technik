@@ -1,0 +1,23 @@
+---
+import Icon from './Icon.astro';
+import { logo, navigation, phone } from '../data/site';
+const { path } = Astro.props;
+---
+<header class="site-header">
+  <div class="shell header-inner">
+    <a class="brand" href="/" aria-current={path === '/' ? 'page' : undefined}>
+      <img src={logo} width="168" height="102" alt="BMS Technik – strona główna" />
+    </a>
+    <nav class="desktop-nav" aria-label="Menu główne">
+      <ul>{navigation.map(({ label, href }) => <li><a href={href} aria-current={href === path ? 'page' : undefined}>{label}</a></li>)}</ul>
+    </nav>
+    <a class="header-phone" href={phone.href}><Icon name="phone" /> {phone.text}</a>
+    <details class="mobile-menu">
+      <summary><Icon name="menu" /><span>Menu</span></summary>
+      <nav aria-label="Menu główne">
+        <ul>{navigation.map(({ label, href }) => <li><a href={href} aria-current={href === path ? 'page' : undefined}>{label}</a></li>)}</ul>
+        <a href={phone.href}><Icon name="phone" /> {phone.text}</a>
+      </nav>
+    </details>
+  </div>
+</header>

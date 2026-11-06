@@ -1,0 +1,12 @@
+---
+import { media } from '../data/site';
+interface Props { items: { name: string; icon: string }[]; }
+const { items } = Astro.props;
+---
+<ul class="service-steps" style={'--step-count:' + items.length}>
+  {items.map(({ name, icon }, i) => <li>
+    <span class="figure-index" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+    <img src={media + '2022/03/' + icon} alt="" width="48" height="48" loading="lazy" />
+    <span>{name}</span>
+  </li>)}
+</ul>

@@ -1,0 +1,50 @@
+---
+import Layout from '../components/Layout.astro';
+import PageIntro from '../components/PageIntro.astro';
+import Gallery from '../components/Gallery.astro';
+import ServiceSteps from '../components/ServiceSteps.astro';
+import ContactBanner from '../components/ContactBanner.astro';
+import { ventilation } from '../data/site';
+
+const steps = [
+  { name: 'Koncepcja i projekt instalacji', icon: 'project-1.svg' },
+  { name: 'Dobór urządzeń', icon: 'dobor-urzadzen.svg' },
+  { name: 'Dostawa i montaż', icon: 'dostawa-montaz.svg' },
+  { name: 'Uruchomienie systemu', icon: 'system.svg' },
+  { name: 'Profesjonalna regulacja', icon: 'regulacja.svg' },
+];
+const benefits = [
+  'Komfort mieszkania w zdrowym mikroklimacie',
+  'Kontrola kosztów wentylacji domu',
+  'Niższe koszty ogrzewania domu',
+  'Mniej osadzającego się kurzu i pyłu',
+  'Większy komfort osób z alergią lub astmą',
+  'Ograniczenie ryzyka wystąpienia syndromu chorego budynku',
+  'Szybsze usuwanie nieprzyjemnych zapachów',
+  'Wentylacja bez konieczności otwierania okien',
+];
+---
+<Layout path="/rekuperacja/" hasGallery description="BMS Technik projektuje, montuje i reguluje domową wentylację mechaniczną z odzyskiem ciepła. Poznaj etapy usługi i zobacz realizacje.">
+  <PageIntro index="01" label="Usługi / Wentylacja" title="Rekuperacja i wentylacja" intro="Od wielu lat pomagamy klientom indywidualnym wyposażyć dom w system wentylacji mechanicznej z odzyskiem ciepła." />
+  <section class="section shell" aria-labelledby="etapy">
+    <div class="section-header"><div><p class="eyebrow">Zakres prac</p><h2 id="etapy">Od projektu do regulacji</h2></div></div>
+    <ServiceSteps items={steps} />
+  </section>
+  <section class="section section-muted" id="realizacje" aria-labelledby="wentylacja-realizacje">
+    <div class="shell">
+      <div class="section-header">
+        <div><p class="eyebrow">Zdjęcia z instalacji</p><h2 id="wentylacja-realizacje">Realizacje wentylacji</h2></div>
+      </div>
+      <Gallery label="Realizacje wentylacji mechanicznej" photos={ventilation} />
+      <div class="prose gallery-note">
+        <p>Stosujemy urządzenia, których rozwiązania techniczne są dostosowane do polskich warunków klimatycznych. Instalacje wykonujemy z wysokiej jakości materiałów, zgodnie z wytycznymi producentów.</p>
+        <p>Zależy nam na szczelnej, cichej instalacji, która wymaga jak najmniej obsługi.</p>
+      </div>
+    </div>
+  </section>
+  <section class="section shell split-section" aria-labelledby="korzysci">
+    <div><p class="eyebrow">Odzysk ciepła</p><h2 id="korzysci">Korzyści z rekuperacji</h2></div>
+    <ul class="check-list">{benefits.map((benefit) => <li>{benefit}</li>)}</ul>
+  </section>
+  <ContactBanner text="Masz pytania o system wentylacji z odzyskiem ciepła? Chętnie na nie odpowiemy." />
+</Layout>

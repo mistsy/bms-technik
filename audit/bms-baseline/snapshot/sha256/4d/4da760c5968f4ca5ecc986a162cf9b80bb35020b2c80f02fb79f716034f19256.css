@@ -1,0 +1,16 @@
+.bms-page-banner {
+  height: 40vh;
+  min-height: 200px;
+  max-height: 340px;
+  background-size: cover!important;
+  background-position: center center!important;
+  background-repeat: no-repeat!important;
+}
+
+@media screen and (min-width: 768px) {
+  .bms-page-banner {
+    height: 40vh;
+    min-height: 400px;
+    max-height: 700px;
+  }
+}

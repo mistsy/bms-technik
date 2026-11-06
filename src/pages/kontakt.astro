@@ -1,0 +1,53 @@
+---
+import Layout from '../components/Layout.astro';
+import PageIntro from '../components/PageIntro.astro';
+import Icon from '../components/Icon.astro';
+import { addresses, emails, phone } from '../data/site';
+import { categories } from '../../shared/contact.mjs';
+---
+<Layout path="/kontakt/" description="Skontaktuj się z BMS Technik w sprawie rekuperacji, wentylacji, klimatyzacji i serwisu. Telefon, adresy e-mail oraz dane w Skale i Krakowie.">
+  <PageIntro label="BMS Technik" title="Kontakt" intro="Porozmawiajmy o Państwa potrzebach. Wspólnie ustalimy zarys instalacji, na podstawie którego przygotujemy rzetelną wycenę i ofertę." />
+  <div class="section shell contact-grid">
+    <section class="contact-info" aria-labelledby="dane-kontaktowe">
+      <p class="eyebrow">BMS Technik</p>
+      <h2 id="dane-kontaktowe">Dane kontaktowe</h2>
+      <address>
+        <a class="contact-phone" href={phone.href}><Icon name="phone" /> {phone.text}</a>
+        {emails.map((email) => <a href={'mailto:' + email}>{email}</a>)}
+        <div class="contact-addresses">{addresses.map((address) => <span>{address}</span>)}</div>
+      </address>
+    </section>
+    <section class="contact-panel" aria-labelledby="formularz">
+      <h2 id="formularz">Napisz do nas</h2>
+      <p class="form-notice" id="form-notice" role="status">Formularz jest chwilowo niedostępny. Skorzystaj z podanego telefonu lub adresu e-mail.</p>
+      <noscript><p>Włączenie JavaScriptu jest potrzebne do weryfikacji antyspamowej formularza.</p></noscript>
+      <form id="contact-form" action="/kontakt/#formularz" method="post">
+        <fieldset disabled id="contact-fields">
+          <legend class="visually-hidden">Treść zapytania</legend>
+          <div class="form-pair">
+            <label for="name">Imię <span aria-hidden="true">*</span><input id="name" name="name" autocomplete="given-name" maxlength="100" required /></label>
+            <label for="email">E-mail <span aria-hidden="true">*</span><input id="email" name="email" type="email" autocomplete="email" maxlength="254" required /></label>
+          </div>
+          <label for="category">Kategoria <span aria-hidden="true">*</span>
+            <select id="category" name="category" required>
+              <option value="">Wybierz kategorię</option>
+              {categories.map((category) => <option value={category}>{category}</option>)}
+            </select>
+          </label>
+          <label for="message">Wiadomość <span aria-hidden="true">*</span>
+            <textarea id="message" name="message" rows="5" maxlength="4000" required aria-describedby="message-limit"></textarea>
+            <span class="field-hint" id="message-limit">Maksymalnie 4000 znaków.</span>
+          </label>
+          <div class="honeypot" hidden><label>Witryna internetowa <input name="website" tabindex="-1" autocomplete="off" /></label></div>
+          <div class="consent">
+            <input type="checkbox" id="consent" name="consent" value="yes" required />
+            <label for="consent">Zgadzam się z postanowieniami polityki prywatności. <span aria-hidden="true">*</span></label>
+          </div>
+          <a class="form-privacy" href="/polityka-prywatnosci/">Przeczytaj politykę prywatności</a>
+          <div id="form-verification"></div>
+          <button type="submit" class="button button-primary">Wyślij wiadomość <Icon name="arrow" /></button>
+        </fieldset>
+      </form>
+    </section>
+  </div>
+</Layout>

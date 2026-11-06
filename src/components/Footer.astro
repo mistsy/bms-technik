@@ -1,0 +1,25 @@
+---
+import { addresses, emails, phone } from '../data/site';
+---
+<footer class="site-footer">
+  <div class="shell">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <p class="footer-wordmark"><strong>BMS</strong> Technik</p>
+        <p>Rekuperacja, wentylacja, klimatyzacja i serwis</p>
+      </div>
+      <div>
+        <h2>Kontakt</h2>
+        <address><a href={phone.href}>{phone.text}</a>{emails.map((email) => <a href={'mailto:' + email}>{email}</a>)}</address>
+      </div>
+      <div>
+        <h2>Adresy</h2>
+        <address>{addresses.map((address) => <span>{address}</span>)}</address>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <small>© BMS Technik. Wszelkie prawa zastrzeżone.</small>
+      <a href="/polityka-prywatnosci/">Polityka prywatności</a>
+    </div>
+  </div>
+</footer>

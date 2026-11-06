@@ -1,0 +1,17 @@
+.bms-cta {
+  background-color: #333;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill='none' stroke='%23707070' stroke-width='1' opacity='0.1'%3E%3Crect width='100' height='100' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='99' height='99' fill='none'/%3E%3C/g%3E%3Cline x2='99' transform='translate(1 20)' fill='none' stroke='%23707070' stroke-width='1' opacity='0.1'/%3E%3Cline x2='99' transform='translate(1 40)' fill='none' stroke='%23707070' stroke-width='1' opacity='0.1'/%3E%3Cline x2='99' transform='translate(0 60)' fill='none' stroke='%23707070' stroke-width='1' opacity='0.1'/%3E%3Cline x2='99' transform='translate(1 80)' fill='none' stroke='%23707070' stroke-width='1' opacity='0.1'/%3E%3Cline y2='99' transform='translate(20 1)' fill='none' stroke='%23707070' stroke-width='1' opacity='0.1'/%3E%3Cline y2='99' transform='translate(40 1)' fill='none' stroke='%23707070' stroke-width='1' opacity='0.1'/%3E%3Cline y2='99' transform='translate(60 1)' fill='none' stroke='%23707070' stroke-width='1' opacity='0.1'/%3E%3Cline y2='99' transform='translate(80 1)' fill='none' stroke='%23707070' stroke-width='1' opacity='0.1'/%3E%3C/svg%3E");
+  background-size: 100px;
+  padding: 60px 0;
+}
+
+.bms-cta .bms-cta__content p {
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .bms-cta .bms-cta__content p {
+    text-align: left;
+  }
+}

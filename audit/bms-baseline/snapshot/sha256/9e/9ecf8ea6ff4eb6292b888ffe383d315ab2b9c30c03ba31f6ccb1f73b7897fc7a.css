@@ -1,0 +1,36 @@
+.error404 #page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.error404 #primary {
+  display: flex;
+  flex: 1 0 10%;
+  height: 100%;
+  align-items: center;
+}
+
+.error404 section.error-404 {
+  display: flex;
+  justify-content: center;
+  width: 100%; 
+}
+
+.error404 .error-page-row {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.error404 .error-page-row h1 {
+  margin-top: 2rem;
+}
+
+.error404 .error-page-row p {
+  line-height: 1.4em;
+}
+
+.error404 .error-page-row .bms-button {
+  margin-top: 2rem;
+}

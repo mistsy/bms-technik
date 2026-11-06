@@ -1,0 +1,64 @@
+---
+import Icon from './Icon.astro';
+---
+<dialog class="lightbox" id="photo-dialog" aria-labelledby="photo-title">
+  <div class="lightbox-toolbar">
+    <h2 id="photo-title">Zdjęcie realizacji</h2>
+    <form method="dialog"><button autofocus aria-label="Zamknij powiększenie"><Icon name="close" /></button></form>
+  </div>
+  <figure>
+    <img alt="" />
+    <figcaption aria-live="polite"></figcaption>
+  </figure>
+  <div class="lightbox-controls">
+    <button type="button" data-previous aria-label="Poprzednie zdjęcie"><Icon name="left" /></button>
+    <button type="button" data-next aria-label="Następne zdjęcie"><Icon name="right" /></button>
+  </div>
+</dialog>
+<script>
+  const dialog = document.querySelector<HTMLDialogElement>('#photo-dialog');
+  if (dialog && typeof dialog.showModal === 'function') {
+    const image = dialog.querySelector('img')!;
+    const caption = dialog.querySelector('figcaption')!;
+    const controls = dialog.querySelector<HTMLElement>('.lightbox-controls')!;
+    let photos: HTMLAnchorElement[] = [];
+    let current = 0;
+    let trigger: HTMLAnchorElement | undefined;
+
+    function showPhoto(index: number) {
+      current = (index + photos.length) % photos.length;
+      const photo = photos[current];
+      image.src = photo.href;
+      image.alt = photo.dataset.caption ?? '';
+      caption.textContent = (current + 1) + ' / ' + photos.length + ' · ' + image.alt;
+    }
+
+    document.addEventListener('click', (event) => {
+      if (event.defaultPrevented || event.button || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      if (!(event.target instanceof Element)) return;
+      const link = event.target.closest<HTMLAnchorElement>('a[data-photo]');
+      if (!link) return;
+      event.preventDefault();
+      trigger = link;
+      photos = [...(link.closest('[data-gallery]')?.querySelectorAll<HTMLAnchorElement>('a[data-photo]') ?? [link])];
+      controls.hidden = photos.length < 2;
+      showPhoto(photos.indexOf(link));
+      dialog.showModal();
+    });
+
+    dialog.querySelector('[data-previous]')?.addEventListener('click', () => showPhoto(current - 1));
+    dialog.querySelector('[data-next]')?.addEventListener('click', () => showPhoto(current + 1));
+    dialog.addEventListener('keydown', (event) => {
+      if (photos.length < 2 || !['ArrowLeft', 'ArrowRight'].includes(event.key)) return;
+      event.preventDefault();
+      showPhoto(current + (event.key === 'ArrowLeft' ? -1 : 1));
+    });
+    dialog.addEventListener('click', (event) => {
+      if (event.target === dialog) dialog.close();
+    });
+    dialog.addEventListener('close', () => {
+      image.removeAttribute('src');
+      trigger?.focus();
+    });
+  }
+</script>

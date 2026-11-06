@@ -1,0 +1,10 @@
+---
+import Icon from './Icon.astro';
+const { title = 'Porozmawiajmy o instalacji', text } = Astro.props;
+---
+<section class="contact-banner">
+  <div class="shell banner-inner">
+    <div><p class="eyebrow">BMS Technik</p><h2>{title}</h2>{text && <p>{text}</p>}</div>
+    <a class="button button-light" href="/kontakt/">Skontaktuj się <Icon name="arrow" /></a>
+  </div>
+</section>
