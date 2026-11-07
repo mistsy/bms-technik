@@ -1,6 +1,6 @@
 // Installed before parsing: no wait for load/document.fonts.ready before sampling.
 export function observeLayout() {
-  const selectors = ['.site-header', '.header-inner', '.brand img', '.mobile-menu summary', '.menu-label', '.menu-glyph', '.desktop-nav', '.header-phone', 'main', 'main > :first-child', 'h1', '.lead', '.intro-photo', '.intro-photo img', 'main > section:nth-of-type(2)', '.service-choice', '.contact-grid'];
+  const selectors = ['.site-header', '.header-inner', '.brand img', '.mobile-menu summary', '.menu-label', '.menu-glyph', '.desktop-nav', '.header-phone', '.header-phone svg', 'main', 'main > :first-child', 'h1', '.lead', '.intro-photo', '.intro-photo img', 'main > section:nth-of-type(2)', '.service-choice', '.contact-grid'];
   const data = window.__layout = { frames: [], fonts: [], shifts: [], styleStates: [], clsSupported: PerformanceObserver.supportedEntryTypes.includes('layout-shift') };
   let previous = '';
   let previousStyle;
@@ -22,7 +22,7 @@ export function observeLayout() {
         const { x, y, width, height } = element.getBoundingClientRect();
         boxes[selector] = { x, y: y + scrollY, width, height };
       }
-      const frame = { boxes, parsing: document.readyState === 'loading', viewport: document.documentElement.clientWidth, fontStatus: document.fonts.status, loaded: [...document.fonts].filter(f => f.status === 'loaded').map(f => f.family) };
+      const frame = { boxes, parsing: document.readyState === 'loading', viewport: document.documentElement.clientWidth, viewportHeight: innerHeight, fontStatus: document.fonts.status, loaded: [...document.fonts].filter(f => f.status === 'loaded').map(f => f.family) };
       const key = JSON.stringify(frame);
       if (key !== previous) { data.frames.push({ time: performance.now(), ...frame }); previous = key; }
     }
@@ -49,7 +49,7 @@ export function geometryChanges(frames) {
 export function clsValue(shifts) {
   let max = 0, value = 0, start = 0, last = 0;
   for (const shift of shifts.filter(s => !s.hadRecentInput)) {
-    if (shift.time - last > 1000 || shift.time - start > 5000) { value = 0; start = shift.time; }
+    if (!value || shift.time - last > 1000 || shift.time - start > 5000) { value = 0; start = shift.time; }
     value += shift.value; last = shift.time; max = Math.max(max, value);
   }
   return max;
