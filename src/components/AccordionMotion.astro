@@ -1,21 +1,18 @@
 <script>
-  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const motion = getComputedStyle(document.documentElement);
-  const durationValue = motion.getPropertyValue('--motion-duration').trim();
-  // The production CSS optimizer may serialize 240ms as .24s.
-  const duration = parseFloat(durationValue) * (durationValue.endsWith('ms') ? 1 : 1000);
-  const easing = motion.getPropertyValue('--motion-easing').trim();
+  import { motionOptions, reducedMotion } from '../scripts/motion';
 
   document.querySelectorAll<HTMLElement>('.accordion').forEach((accordion, groupIndex) => {
     const items = [...accordion.querySelectorAll<HTMLDetailsElement>('details')];
     const controllers = items.map((details, index) => {
       const summary = details.querySelector('summary')!;
       const content = details.querySelector<HTMLElement>('.accordion-content')!;
-      const group = details.name;
+      const group = details.getAttribute('name');
       let expanded = details.open;
       let heightAnimation: Animation | undefined;
       let contentAnimation: Animation | undefined;
-      // Native grouping is the no-JS fallback; enhanced peers close after animating.
+      let targetHeight = 0;
+      // Keep native grouping without JS. With JS peers stay open until their
+      // closing animation ends, so the browser must not close them immediately.
       details.removeAttribute('name');
       summary.id = `accordion-trigger-${groupIndex}-${index}`;
       content.id = `accordion-panel-${groupIndex}-${index}`;
@@ -29,41 +26,61 @@
         content.inert = !expanded;
       }
 
-      function settle() {
+      function cancel() {
+        if (heightAnimation) heightAnimation.onfinish = null;
         heightAnimation?.cancel();
         contentAnimation?.cancel();
         heightAnimation = contentAnimation = undefined;
+      }
+
+      function settle() {
         details.open = expanded;
+        cancel();
+        details.style.removeProperty('height');
         details.style.removeProperty('overflow');
+      }
+
+      function measureTarget() {
+        const style = getComputedStyle(details);
+        return summary.getBoundingClientRect().height
+          + (expanded ? content.getBoundingClientRect().height : 0)
+          + parseFloat(style.borderTopWidth) + parseFloat(style.borderBottomWidth);
+      }
+
+      function animate() {
+        // Snapshot the rendered state BEFORE cancelling. Reversals resume from
+        // these values, including opacity/transform, rather than flashing 0/1.
+        const startHeight = details.getBoundingClientRect().height;
+        const style = getComputedStyle(content);
+        const opacity = details.open ? style.opacity : '0';
+        const transform = details.open ? style.transform : 'translateY(-4px)';
+        cancel();
+        details.style.height = `${startHeight}px`;
+        details.style.overflow = 'hidden';
+        details.open = true;
+        targetHeight = measureTarget();
+        const options = motionOptions();
+        if (!options.duration) {
+          settle();
+          return;
+        }
+        const animation = heightAnimation = details.animate(
+          { height: [`${startHeight}px`, `${targetHeight}px`] }, options,
+        );
+        contentAnimation = content.animate(
+          { opacity: [opacity, expanded ? '1' : '0'], transform: [transform, expanded ? 'translateY(0)' : 'translateY(-4px)'] }, options,
+        );
+        animation.onfinish = () => {
+          if (heightAnimation === animation) settle();
+        };
       }
 
       function setExpanded(next: boolean) {
         if (next === expanded) return;
-        const startHeight = details.getBoundingClientRect().height;
-        heightAnimation?.cancel();
-        contentAnimation?.cancel();
         expanded = next;
-        if (!expanded && content.contains(document.activeElement)) summary.focus();
+        if (!expanded && content.contains(document.activeElement)) summary.focus({ preventScroll: true });
         updateState();
-        if (reducedMotion.matches) {
-          settle();
-          return;
-        }
-
-        details.open = true;
-        const endHeight = expanded
-          ? details.getBoundingClientRect().height
-          : summary.getBoundingClientRect().height + parseFloat(getComputedStyle(details).borderBottomWidth);
-        details.style.overflow = 'hidden';
-        heightAnimation = details.animate(
-          { height: [`${startHeight}px`, `${endHeight}px`] },
-          { duration, easing },
-        );
-        contentAnimation = content.animate(
-          { opacity: expanded ? [0, 1] : [1, 0], transform: expanded ? ['translateY(-4px)', 'translateY(0)'] : ['translateY(0)', 'translateY(-4px)'] },
-          { duration, easing },
-        );
-        heightAnimation.onfinish = settle;
+        animate();
       }
 
       summary.addEventListener('click', (event) => {
@@ -75,6 +92,13 @@
         }
         setExpanded(!expanded);
       });
+      // Observe intrinsic children, not the animated details box. Images, fonts,
+      // changed text and rotation can alter the destination during a transition.
+      const observer = new ResizeObserver(() => {
+        if (heightAnimation && Math.abs(measureTarget() - targetHeight) > 0.5) animate();
+      });
+      observer.observe(summary);
+      observer.observe(content);
       reducedMotion.addEventListener('change', () => {
         if (reducedMotion.matches) settle();
       });
