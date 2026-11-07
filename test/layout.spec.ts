@@ -86,6 +86,8 @@ test('scrollbar reservation keeps header and content aligned on short and long d
   }));
   const before = await boxes();
   // Remove document overflow, then restore it, keeping the same viewport.
-  await page.addStyleTag({ content: 'body { height: 100px; overflow: hidden; }' });
+  const style = await page.addStyleTag({ content: 'body { height: 100px; overflow: hidden; }' });
+  expect(await boxes()).toEqual(before);
+  await style.evaluate(el => el.remove());
   expect(await boxes()).toEqual(before);
 });

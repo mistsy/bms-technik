@@ -51,6 +51,16 @@
   line-gap-override: 0%;
   unicode-range: U+0, U+D, U+20-7E, U+A0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2013-2014, U+2018-201A, U+201C-201E, U+2022, U+2026, U+2039-203A, U+2044, U+20AC, U+2122, U+2212, U+2215;
 }
+@font-face {
+  font-family: 'Share Tech Caps Fallback';
+  src: local('Arial'), local('ArialMT'), local('Liberation Sans');
+  font-weight: 400;
+  size-adjust: 73.436869%;
+  ascent-override: 120.511674%;
+  descent-override: 32.953475%;
+  line-gap-override: 0%;
+  unicode-range: U+0, U+D, U+20-7E, U+A0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2013-2014, U+2018-201A, U+201C-201E, U+2022, U+2026, U+2039-203A, U+2044, U+20AC, U+2122, U+2212, U+2215;
+}
 
 :root {
   color-scheme: light;
@@ -70,6 +80,7 @@
   --focus: #09578c;
   --font-body: Monda, 'Monda Fallback', system-ui, sans-serif;
   --font-tech: 'Share Tech', 'Share Tech Fallback', Monda, 'Monda Fallback', sans-serif;
+  --font-tech-caps: 'Share Tech', 'Share Tech Caps Fallback', Monda, 'Monda Fallback', sans-serif;
   --measure: 67ch;
   --container: 75rem;
   --gutter: clamp(1.125rem, 4.5vw, 3rem);
@@ -106,7 +117,7 @@ address { font-style: normal; }
 }
 .skip-link { position: fixed; z-index: 5; inset: 0.75rem auto auto 0.75rem; padding: 0.6rem 1rem; background: var(--paper); }
 .eyebrow, .figure-index { font-family: var(--font-tech); font-weight: 400; text-transform: uppercase; letter-spacing: 0.105em; }
-.eyebrow { display: flex; align-items: center; gap: 0.6rem; color: var(--brand-strong); font-size: 0.875rem; }
+.eyebrow { display: flex; align-items: center; gap: 0.6rem; color: var(--brand-strong); font-family: var(--font-tech-caps); font-size: 0.875rem; }
 .eyebrow::before { content: ''; inline-size: 1.375rem; block-size: 0.125rem; background: currentColor; flex: none; }
 .eyebrow-divider { width: 0.75rem; border-top: 0.0625rem solid currentColor; }
 .figure-index { font-size: 0.875rem; color: var(--brand-strong); white-space: nowrap; }
@@ -121,18 +132,24 @@ address { font-style: normal; }
 .brand img { inline-size: 5.15rem; block-size: auto; aspect-ratio: 168 / 102; }
 .desktop-nav ul, .mobile-menu ul { list-style: none; margin: 0; padding: 0; }
 .desktop-nav ul { display: flex; align-items: center; gap: clamp(0.85rem, 2.55vw, 2.375rem); }
+/* Reserve the existing labels' final advances, including WebKit's rounding.
+   Their slots must not be redistributed by flex when a font becomes available. */
+.desktop-nav li { flex: none; }
+.desktop-nav li:nth-child(1) { inline-size: 12.3125rem; }
+.desktop-nav li:nth-child(2) { inline-size: 6.1875rem; }
+.desktop-nav li:nth-child(3) { inline-size: 3.8125rem; }
 .desktop-nav a, .mobile-menu a, .header-phone { font-weight: 700; font-size: 0.9rem; text-decoration: none; }
-.desktop-nav a { font-family: var(--font-tech); font-weight: 400; font-size: 1.05rem; letter-spacing: 0.035em; text-transform: uppercase; display: flex; min-block-size: 3rem; align-items: center; position: relative; }
+.desktop-nav a { font-family: var(--font-tech-caps); font-weight: 400; font-size: 1.05rem; letter-spacing: 0.035em; text-transform: uppercase; white-space: nowrap; display: flex; min-block-size: 3rem; align-items: center; position: relative; }
 .desktop-nav a[aria-current='page'], .mobile-menu a[aria-current='page'] { color: var(--brand-strong); }
 .desktop-nav a[aria-current='page']::after { position: absolute; inset: auto 0 0.35rem; content: ''; block-size: 0.125rem; background: currentColor; }
 .header-phone, .mobile-menu nav > a { display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem; min-block-size: 2.75rem; color: var(--brand-strong); }
-.header-phone { border: 0.0625rem solid var(--line); padding: 0.45rem 0.8rem; white-space: nowrap; }
+.header-phone { flex: none; inline-size: 9.5rem; border: 0.0625rem solid var(--line); padding: 0.45rem 0.8rem; white-space: nowrap; }
 .header-phone:hover { border-color: var(--brand); }
 .header-phone svg, .mobile-menu svg { width: 1rem; height: 1rem; }
 .mobile-menu { display: none; }
 .mobile-menu summary { block-size: 2.75rem; inline-size: 6.125rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem; padding-inline: 0.75rem; color: var(--ink); background: var(--background); border: 0.0625rem solid var(--line); border-radius: var(--radius); list-style: none; }
 .mobile-menu summary:hover, .mobile-menu[open]:not([data-expanded='false']) summary { color: var(--brand-strong); border-color: var(--brand-strong); }
-.menu-label { flex: none; inline-size: 2.5rem; font: 1rem/1 var(--font-tech); letter-spacing: 0.06em; text-transform: uppercase; }
+.menu-label { flex: none; inline-size: 2.5rem; font: 1rem/1 var(--font-tech-caps); letter-spacing: 0.06em; text-transform: uppercase; }
 .menu-glyph { position: relative; flex: none; inline-size: 1.25rem; block-size: 1rem; }
 .menu-glyph span { position: absolute; inset-inline: 0; inset-block-start: calc(50% - 1px); block-size: 2px; background: currentColor; transition: transform var(--motion-duration) var(--motion-easing), opacity var(--motion-duration) var(--motion-easing); }
 .menu-glyph span:first-child { transform: translateY(-6px); }
@@ -154,7 +171,7 @@ address { font-style: normal; }
 }
 .home-choice { min-block-size: min(44rem, calc(100svh - var(--header-height))); display: grid; align-items: center; }
 .choice-inner { padding-block: clamp(2rem, 5vh, 3.5rem); text-align: center; }
-.choice-inner h1 { margin-block-end: clamp(1.5rem, 4vh, 2.5rem); color: var(--muted); font-size: clamp(1rem, 1.6vw, 1.25rem); letter-spacing: 0.07em; text-transform: uppercase; }
+.choice-inner h1 { margin-block-end: clamp(1.5rem, 4vh, 2.5rem); color: var(--muted); font-family: var(--font-tech-caps); font-size: clamp(1rem, 1.6vw, 1.25rem); letter-spacing: 0.07em; text-transform: uppercase; }
 .service-choice { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: 1fr; gap: clamp(1rem, 3vw, 2rem); max-inline-size: 48rem; margin-inline: auto; }
 .service-choice-link { min-block-size: 21rem; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 1.5rem; padding: 2rem 1.25rem; background: var(--paper); border: 1px solid var(--line); text-decoration: none; }
 .service-choice-link h2 { font-family: var(--font-body); font-size: clamp(1.25rem, 2vw, 1.55rem); font-weight: 400; line-height: 1.3; letter-spacing: 0.015em; text-transform: uppercase; }
@@ -196,7 +213,7 @@ a:hover .photo-open { background: var(--brand); color: var(--paper); }
 .photo-frame { aspect-ratio: 1.7; }
 .photo-grid-featured { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .photo-grid-featured .photo-frame { aspect-ratio: 1.8; }
-.photo-caption { display: flex; align-items: baseline; justify-content: space-between; gap: 0.75rem; padding: 0.7rem 0.85rem; font-size: 0.875rem; font-weight: 700; }
+.photo-caption { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; padding: 0.7rem 0.85rem; font-size: 0.875rem; font-weight: 700; }
 .gallery-note { margin-block-start: 1.5rem; }
 .intro-inner { display: flex; align-items: end; justify-content: space-between; gap: var(--gap); padding-block: clamp(1.25rem, 3vw, 2.5rem) clamp(2.6rem, 6vw, 5rem); }
 .back-link { color: var(--muted); display: inline-flex; min-block-size: 2.75rem; align-items: center; gap: 0.3rem; margin-block-end: 1.1rem; font-size: 0.875rem; }
@@ -298,7 +315,8 @@ a:hover .photo-open { background: var(--brand); color: var(--paper); }
   .intro-photo img { aspect-ratio: 16 / 10; }
   .home-choice { min-block-size: 0; }
   .choice-inner { padding-block: 1.5rem; }
-  .choice-inner h1 { max-inline-size: 28ch; margin-inline: auto; margin-block-end: 1.25rem; }
+  /* 28 × Share Tech's 0.47em zero advance, independent of fallback ch metrics. */
+  .choice-inner h1 { max-inline-size: 13.16em; margin-inline: auto; margin-block-end: 1.25rem; }
   .service-choice { grid-template-columns: 1fr; gap: 1rem; max-inline-size: 26rem; }
   .service-choice-link { min-block-size: 11.5rem; gap: 0.75rem; padding: 1.25rem 0.75rem; }
   .service-choice-link h2 { font-size: 1.2rem; }

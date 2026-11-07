@@ -12,9 +12,9 @@ await mkdir(output, { recursive: true });
 const paths = ['/', '/rekuperacja/', '/klimatyzacja/', '/kontakt/', '/polityka-prywatnosci/'];
 const profiles = [
   ['chromium-desktop', chromium, { viewport: { width: 1440, height: 1000 } }],
-  ['chromium-mobile', chromium, { ...devices['iPhone 13'], defaultBrowserType: undefined }],
+  ['chromium-mobile', chromium, { ...devices['iPhone 13'], viewport: { width: 390, height: 844 } }],
   ['webkit-desktop', webkit, { viewport: { width: 1440, height: 1000 } }],
-  ['webkit-mobile', webkit, { ...devices['iPhone 13'] }],
+  ['webkit-mobile', webkit, { ...devices['iPhone 13'], viewport: { width: 390, height: 844 } }],
 ];
 const summaries = [];
 for (const [name, engine, options] of profiles) {
@@ -37,9 +37,12 @@ for (const [name, engine, options] of profiles) {
       const page = await context.newPage();
       const network = [];
       const priorities = [];
+      let cdp;
       if (engine === chromium) {
-        const cdp = await context.newCDPSession(page);
+        cdp = await context.newCDPSession(page);
         await cdp.send('Network.enable');
+        await cdp.send('DOM.enable');
+        await cdp.send('CSS.enable');
         if (scenario === 'cold-cdp') {
           await cdp.send('Network.setCacheDisabled', { cacheDisabled: true });
           await cdp.send('Network.emulateNetworkConditions', { offline: false, latency: 150, downloadThroughput: 102400, uploadThroughput: 51200, connectionType: 'cellular3g' });
@@ -73,20 +76,31 @@ for (const [name, engine, options] of profiles) {
         await page.waitForLoadState('load');
         // WebKit can resolve the initial fonts.ready before CSS has discovered
         // any faces. Wait for actual transfers (or reused loaded faces), too.
-        await page.waitForFunction(() => performance.getEntriesByType('resource').filter(r => /\.woff2/.test(r.name)).length >= 3 || [...document.fonts].filter(f => ['swap', 'optional'].includes(f.display)).length >= 3 && [...document.fonts].filter(f => ['swap', 'optional'].includes(f.display)).every(f => f.status === 'loaded'));
+        await page.waitForFunction(() => {
+          const faces = [...document.fonts].filter(f => ['swap', 'optional'].includes(f.display));
+          return performance.getEntriesByType('resource').filter(r => /\.woff2/.test(r.name)).length >= 3 || faces.length >= 3 && faces.every(f => f.status === 'loaded');
+        });
         await page.evaluate(() => document.fonts.ready);
         await page.waitForTimeout(350);
         const data = await page.evaluate(() => ({ ...window.__layout, resources: performance.getEntriesByType('resource').map(r => r.toJSON()), paints: performance.getEntriesByType('paint').map(r => r.toJSON()), styles: [...document.styleSheets].map(s => ({ href: s.href, rules: s.cssRules.length })), faces: [...document.fonts].map(f => ({ family: f.family, weight: f.weight, status: f.status, unicodeRange: f.unicodeRange })), navigation: performance.getEntriesByType('navigation')[0].toJSON() }));
+        const renderedFonts = {};
+        if (cdp) {
+          const { root } = await cdp.send('DOM.getDocument');
+          for (const selector of ['h1', '.lead', '.desktop-nav a', '.menu-label']) {
+            const { nodeId } = await cdp.send('DOM.querySelector', { nodeId: root.nodeId, selector });
+            if (nodeId) renderedFonts[selector] = (await cdp.send('CSS.getPlatformFontsForNode', { nodeId })).fonts;
+          }
+        }
         const changes = geometryChanges(data.frames);
         const cls = data.clsSupported ? clsValue(data.shifts) : null;
-        results.push({ path, direction: step > 4 ? 'back' : 'forward', cls, changes, filmstrip: frames, ...data });
+        results.push({ path, direction: step > 4 ? 'back' : 'forward', cls, changes, filmstrip: frames, renderedFonts, ...data });
         console.log(label, name, scenario, step, path, 'CLS', cls, 'menu', JSON.stringify(changes['.mobile-menu summary']), 'hero', JSON.stringify(changes['main > :first-child']));
       }
       const video = page.video();
       await context.close();
       await video.saveAs(new URL(`${name}-${scenario}.webm`, output).pathname);
       await video.delete();
-      await writeFile(new URL(`${name}-${scenario}.json`, output), JSON.stringify({ baseURL, name, scenario, network, priorities, results }, null, 2) + '\n');
+      await writeFile(new URL(`${name}-${scenario}.json`, output), JSON.stringify({ baseURL, name, browserVersion: browser.version(), nodeVersion: process.version, scenario, network, priorities, results }, null, 2) + '\n');
       summaries.push({ name, scenario, pages: results.map(({ path, direction, cls, changes, paints, fonts }) => ({ path, direction, cls, changes, paints, fonts })) });
     }
   } finally { await browser.close(); }
