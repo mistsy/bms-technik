@@ -12,7 +12,10 @@ const { label, photos, featured = false } = Astro.props;
     <li>
       <a class="photo-link" href={photo.full} data-photo data-caption={photo.alt} aria-label={'Powiększ zdjęcie: ' + (photo.category ? photo.category + ' – ' : '') + photo.alt}>
         <span class="photo-frame">
-          <img src={photo.thumb} alt={photo.alt} width={photo.width} height={photo.height} loading="lazy" decoding="async" />
+          <img src={photo.thumb}
+            srcset={featured ? `${photo.thumb} ${photo.width}w, ${photo.full} 1080w` : undefined}
+            sizes={featured ? '(max-width: 42rem) 92vw, (max-width: 80rem) 44vw, 588px' : undefined}
+            alt={photo.alt} width={photo.width} height={photo.height} loading="lazy" decoding="async" />
           <span class="photo-open"><Icon name="plus" /></span>
         </span>
         <span class="photo-caption">

@@ -29,6 +29,16 @@ Podgląd działa pod `http://127.0.0.1:8787/`. W drugim terminalu uruchom `npm r
 - `scripts/prepare-audit.mjs` generuje katalog `generated/` na podstawie `manifest.json`, `pages.json`, `assets.json`, `discovery.json` i lokalnego snapshotu. Weryfikuje SHA-256 przed skopiowaniem plików. Artefakty builda powstają w `dist/`.
 - Przy pierwszym renderowaniu strona korzysta z lokalnych fontów Monda i Share Tech oraz oryginalnego logo, ikon i wzoru technicznego. Licencje OFL są w [licenses](licenses/).
 - [Zrzuty referencyjne i podgląd](audit/screenshots/) obejmują wszystkie pięć adresów starej strony na desktopie i mobile. Zrzuty `after-*` pokazują nową stronę główną, kontakt i powiększenie zdjęcia.
+- [Korekta charakteru wizualnego](audit/visual-refinement/README.md) zawiera analizę pierwowzoru, porównania przed/po, zrzuty aktualnego builda oraz wyniki testów interakcji.
+
+### Testy przeglądarkowe
+
+```sh
+npx playwright install chromium
+npm run test:browser
+```
+
+Playwright buduje stronę i uruchamia lokalny Worker na porcie 8787, jeśli podgląd jeszcze nie działa. Testuje wybór obu usług na pierwszym ekranie, małe ekrany i landscape, akordeony, ARIA, klawiaturę, galerie, ograniczenie animacji oraz działanie bez JavaScriptu. Dostępny Chrome można wskazać przez `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH` zamiast instalować przeglądarkę Playwright. Zależność Playwright jest używana wyłącznie do kontroli projektu.
 
 ## Polityka adresów
 

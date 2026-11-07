@@ -1,7 +1,7 @@
 ---
 import Icon from './Icon.astro';
 interface Props { label: string; title: string; intro?: string; index?: string; }
-const { label, title, intro, index } = Astro.props;
+const { label, title, intro } = Astro.props;
 ---
 <section class="page-intro blueprint">
   <div class="shell intro-inner">
@@ -11,6 +11,5 @@ const { label, title, intro, index } = Astro.props;
       <h1>{title}</h1>
       {intro && <p class="lead">{intro}</p>}
     </div>
-    {index && <span class="intro-index" aria-hidden="true">{index}</span>}
   </div>
 </section>
