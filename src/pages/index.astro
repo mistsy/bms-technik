@@ -5,67 +5,40 @@ import Gallery from '../components/Gallery.astro';
 import ContactBanner from '../components/ContactBanner.astro';
 import { airConditioning, ventilation } from '../data/site';
 
-const featured = ventilation[0];
 const highlights = [
+  { ...ventilation[0], category: 'Wentylacja mechaniczna' },
   { ...ventilation[4], category: 'Rekuperacja i wentylacja' },
   { ...airConditioning[1], category: 'Klimatyzacja domu' },
   { ...airConditioning[2], category: 'Klimatyzacja biura' },
 ];
 ---
 <Layout path="/" hasGallery description="BMS Technik: rekuperacja, wentylacja, klimatyzacja i serwis. Zobacz zdjęcia realizacji oraz skontaktuj się z nami w Skale lub Krakowie.">
-  <section class="home-hero blueprint" aria-labelledby="home-title">
-    <div class="shell hero-grid">
-      <div class="hero-copy">
-        <p class="eyebrow">BMS Technik <span class="eyebrow-divider"></span> Skała · Kraków</p>
-        <h1 id="home-title">Rekuperacja<br /><span>i klimatyzacja.</span></h1>
-        <p class="lead">Projektujemy i montujemy wentylację z odzyskiem ciepła. Dobieramy, montujemy i serwisujemy klimatyzację.</p>
-        <div class="button-row">
-          <a class="button button-primary" href="#realizacje">Zobacz realizacje <Icon name="arrow" /></a>
-          <a class="button button-outline" href="/kontakt/">Kontakt</a>
-        </div>
-      </div>
-      <figure class="hero-figure">
-        <a class="hero-image" href={featured.full} data-photo data-caption={featured.alt} aria-label={'Powiększ zdjęcie: ' + featured.alt}>
-          <img
-            src={featured.thumb.replace('-900x460', '-768x768')}
-            srcset={featured.thumb.replace('-900x460', '-300x300') + ' 300w, ' + featured.thumb.replace('-900x460', '-768x768') + ' 768w, ' + featured.full + ' 1080w'}
-            sizes="(max-width: 50rem) 92vw, 45vw"
-            alt={featured.alt} width="768" height="768" fetchpriority="high" />
-          <span class="photo-open"><Icon name="plus" /></span>
+  <section class="home-choice blueprint" aria-labelledby="home-title">
+    <div class="shell choice-inner">
+      <h1 id="home-title">Rekuperacja, wentylacja i klimatyzacja</h1>
+      <nav class="service-choice" aria-label="Wybierz dziedzinę naszej oferty">
+        <a class="service-choice-link" href="/rekuperacja/">
+          <h2>Rekuperacja /<br /> Wentylacja</h2>
+          <p>Wentylacja z odzyskiem ciepła.<br />Od projektu po montaż i regulację.</p>
+          <span class="choice-action">Poznaj ofertę <Icon name="arrow" /></span>
         </a>
-        <figcaption><span class="figure-index">BMS / 01</span> <span>Wentylacja mechaniczna · zdjęcie z realizacji</span></figcaption>
-      </figure>
+        <a class="service-choice-link" href="/klimatyzacja/">
+          <h2>Klimatyzacja</h2>
+          <p>Komfort w domu i biurze.<br />Dobór, montaż i opieka serwisowa.</p>
+          <span class="choice-action">Poznaj ofertę <Icon name="arrow" /></span>
+        </a>
+      </nav>
+      <p class="choice-location">BMS Technik · Skała · Kraków</p>
     </div>
   </section>
 
   <section class="section shell" id="realizacje" aria-labelledby="realizacje-title">
     <div class="section-header">
       <div><p class="eyebrow">Zdjęcia z instalacji</p><h2 id="realizacje-title">Nasze realizacje</h2></div>
-      <p>Przykłady instalacji wentylacji mechanicznej oraz klimatyzacji w domach i biurach.</p>
+      <p>Projektujemy i montujemy wentylację z odzyskiem ciepła. Dobieramy, montujemy i serwisujemy klimatyzację. Zobacz przykłady naszych realizacji w domach i biurach.</p>
     </div>
     <Gallery label="Wybrane zdjęcia realizacji BMS Technik" photos={highlights} featured />
   </section>
 
-  <section class="section section-muted" aria-labelledby="oferta-title">
-    <div class="shell">
-      <div class="section-header">
-        <div><p class="eyebrow">Oferta</p><h2 id="oferta-title">W czym pomagamy</h2></div>
-      </div>
-      <div class="offer-grid">
-        <a class="offer-card" href="/rekuperacja/">
-          <span class="offer-top"><Icon name="vent" /><span class="figure-index">01</span></span>
-          <h3>Rekuperacja i wentylacja</h3>
-          <p>Wentylacja mechaniczna z odzyskiem ciepła. Od koncepcji i doboru urządzeń po uruchomienie i regulację.</p>
-          <span class="offer-action">Poznaj usługę <Icon name="arrow" /></span>
-        </a>
-        <a class="offer-card" href="/klimatyzacja/">
-          <span class="offer-top"><Icon name="air" /><span class="figure-index">02</span></span>
-          <h3>Klimatyzacja</h3>
-          <p>Dobór i montaż urządzeń w domach, mieszkaniach i biurach. Przeglądy okresowe oraz opieka serwisowa.</p>
-          <span class="offer-action">Poznaj usługę <Icon name="arrow" /></span>
-        </a>
-      </div>
-    </div>
-  </section>
   <ContactBanner text="Opowiedz nam, czego potrzebujesz. Pomożemy określić zakres prac i przygotować ofertę." />
 </Layout>

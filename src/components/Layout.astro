@@ -2,6 +2,7 @@
 import Header from './Header.astro';
 import Footer from './Footer.astro';
 import Lightbox from './Lightbox.astro';
+import AccordionMotion from './AccordionMotion.astro';
 import { business, media } from '../data/site';
 import '../styles/site.css';
 
@@ -34,5 +35,6 @@ const page = path ? business[path] : undefined;
     <main id="tresc" tabindex="-1"><slot /></main>
     <Footer />
     {hasGallery && <Lightbox />}
+    <AccordionMotion />
   </body>
 </html>

@@ -12,9 +12,11 @@
     "preview": "wrangler dev --local --ip 127.0.0.1",
     "test": "npm run build && node --test test/build.test.mjs test/routes.test.mjs test/contact.test.mjs",
     "test:http": "node --test test/http.test.mjs",
+    "test:browser": "playwright test",
     "deploy:dry-run": "npm run build && wrangler deploy --dry-run"
   },
   "devDependencies": {
+    "@playwright/test": "^1.65.0",
     "astro": "7.4.7",
     "cheerio": "1.2.0",
     "wrangler": "4.158.0"
