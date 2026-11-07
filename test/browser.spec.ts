@@ -33,7 +33,7 @@ test('service choices navigate directly and menu remains keyboard accessible', a
   await expect(choice).toHaveCSS('border-top-color', 'rgb(255, 45, 35)');
   await page.keyboard.press('Enter');
   await expect(page).toHaveURL('/rekuperacja/');
-  if (testInfo.project.name !== 'desktop') {
+  if (await page.locator('.mobile-menu').isVisible()) {
     const menu = page.locator('.mobile-menu summary');
     await menu.focus();
     await page.keyboard.press('Enter');

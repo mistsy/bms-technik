@@ -1,22 +1,55 @@
 @font-face {
   font-family: Monda;
-  src: url('/fonts/monda-latin-ext.woff2') format('woff2');
+  src: url('../fonts/monda-polish.woff2') format('woff2');
   font-weight: 400 700;
-  font-display: swap;
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-display: optional;
+  unicode-range: U+0104-0107, U+0118-0119, U+0141-0144, U+015A-015B, U+0179-017C;
 }
 @font-face {
   font-family: Monda;
-  src: url('/fonts/monda-latin.woff2') format('woff2');
+  src: url('../../generated/public/fonts/monda-latin.woff2') format('woff2');
   font-weight: 400 700;
-  font-display: swap;
+  font-display: optional;
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 @font-face {
   font-family: 'Share Tech';
-  src: url('/fonts/share-tech.woff2') format('woff2');
+  src: url('../../generated/public/fonts/share-tech.woff2') format('woff2');
   font-weight: 400;
-  font-display: swap;
+  font-display: optional;
+}
+
+/* Arial and Liberation Sans share advance metrics. These local fallbacks use
+   corpus-weighted advance ratios and the original fonts' vertical metrics.
+   optional prevents a late swap; these overrides keep a slow first visit close
+   to the branded typography. Polish letters still fall through to Monda. */
+@font-face {
+  font-family: 'Monda Fallback';
+  src: local('Arial'), local('ArialMT'), local('Liberation Sans');
+  font-weight: 400;
+  size-adjust: 106.9254%;
+  ascent-override: 112.3830%;
+  descent-override: 39.9574%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: 'Monda Fallback';
+  src: local('Arial Bold'), local('Arial-BoldMT'), local('Liberation Sans Bold');
+  font-weight: 700;
+  size-adjust: 101.1035%;
+  ascent-override: 118.8544%;
+  descent-override: 42.2583%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: 'Share Tech Fallback';
+  src: local('Arial'), local('ArialMT'), local('Liberation Sans');
+  font-weight: 400;
+  size-adjust: 88.4627%;
+  ascent-override: 100.0422%;
+  descent-override: 27.3562%;
+  line-gap-override: 0%;
+  unicode-range: U+0, U+D, U+20-7E, U+A0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2013-2014, U+2018-201A, U+201C-201E, U+2022, U+2026, U+2039-203A, U+2044, U+20AC, U+2122, U+2212, U+2215;
 }
 
 :root {
@@ -35,8 +68,8 @@
   --dark: #333333;
   --on-dark: #f4f4f4;
   --focus: #09578c;
-  --font-body: Monda, system-ui, sans-serif;
-  --font-tech: 'Share Tech', Monda, monospace;
+  --font-body: Monda, 'Monda Fallback', system-ui, sans-serif;
+  --font-tech: 'Share Tech', 'Share Tech Fallback', Monda, 'Monda Fallback', sans-serif;
   --measure: 67ch;
   --container: 75rem;
   --gutter: clamp(1.125rem, 4.5vw, 3rem);
@@ -49,7 +82,7 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; }
-html { scroll-padding-block-start: calc(var(--header-height) + 1.5rem); }
+html { scroll-padding-block-start: calc(var(--header-height) + 1.5rem); scrollbar-gutter: stable; }
 body { margin: 0; background: var(--paper); color: var(--ink); font: 1rem/1.65 var(--font-body); }
 img { display: block; max-inline-size: 100%; }
 svg { display: block; flex: none; }
@@ -85,7 +118,7 @@ address { font-style: normal; }
 .site-header { border-bottom: 0.0625rem solid var(--line); background: var(--paper); position: sticky; inset-block-start: 0; z-index: 2; }
 .header-inner { min-block-size: var(--header-height); display: flex; align-items: center; justify-content: space-between; gap: var(--gap); }
 .brand { flex: none; display: inline-flex; padding: 0.25rem 0; }
-.brand img { inline-size: 5.15rem; block-size: auto; }
+.brand img { inline-size: 5.15rem; block-size: auto; aspect-ratio: 168 / 102; }
 .desktop-nav ul, .mobile-menu ul { list-style: none; margin: 0; padding: 0; }
 .desktop-nav ul { display: flex; align-items: center; gap: clamp(0.85rem, 2.55vw, 2.375rem); }
 .desktop-nav a, .mobile-menu a, .header-phone { font-weight: 700; font-size: 0.9rem; text-decoration: none; }
@@ -97,10 +130,10 @@ address { font-style: normal; }
 .header-phone:hover { border-color: var(--brand); }
 .header-phone svg, .mobile-menu svg { width: 1rem; height: 1rem; }
 .mobile-menu { display: none; }
-.mobile-menu summary { min-block-size: 2.75rem; min-inline-size: 2.75rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem; padding-inline: 0.75rem; color: var(--ink); background: var(--background); border: 0.0625rem solid var(--line); border-radius: var(--radius); list-style: none; }
+.mobile-menu summary { block-size: 2.75rem; inline-size: 6.125rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem; padding-inline: 0.75rem; color: var(--ink); background: var(--background); border: 0.0625rem solid var(--line); border-radius: var(--radius); list-style: none; }
 .mobile-menu summary:hover, .mobile-menu[open]:not([data-expanded='false']) summary { color: var(--brand-strong); border-color: var(--brand-strong); }
-.menu-label { font: 1rem/1 var(--font-tech); letter-spacing: 0.06em; text-transform: uppercase; }
-.menu-glyph { position: relative; inline-size: 1.25rem; block-size: 1rem; }
+.menu-label { flex: none; inline-size: 2.5rem; font: 1rem/1 var(--font-tech); letter-spacing: 0.06em; text-transform: uppercase; }
+.menu-glyph { position: relative; flex: none; inline-size: 1.25rem; block-size: 1rem; }
 .menu-glyph span { position: absolute; inset-inline: 0; inset-block-start: calc(50% - 1px); block-size: 2px; background: currentColor; transition: transform var(--motion-duration) var(--motion-easing), opacity var(--motion-duration) var(--motion-easing); }
 .menu-glyph span:first-child { transform: translateY(-6px); }
 .menu-glyph span:last-child { transform: translateY(6px); }

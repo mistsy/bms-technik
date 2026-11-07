@@ -22,6 +22,18 @@ test('Worker serwuje pięć kanonicznych dokumentów i blokuje indeksację podgl
     assert.match(response.headers.get('content-type'), /^text\/html/);
     assert.match(response.headers.get('x-robots-tag'), /noindex/);
     const $ = load(await response.text());
+    const stylesheet = await get($('link[rel="stylesheet"]').attr('href'));
+    assert.equal(stylesheet.status, 200);
+    assert.equal(stylesheet.headers.get('cache-control'), 'public, max-age=31536000, immutable');
+    const preloads = $('link[rel="preload"][as="font"]');
+    assert.equal(preloads.length, 3);
+    for (const el of preloads.toArray()) {
+      assert.equal($(el).attr('crossorigin'), 'anonymous');
+      const font = await get($(el).attr('href'));
+      assert.equal(font.status, 200);
+      assert.match(font.headers.get('content-type'), /^font\/woff2/);
+      assert.equal(font.headers.get('cache-control'), 'public, max-age=31536000, immutable');
+    }
     assert.equal($('title').text(), pages[origin + path].title[0], path);
     assert.equal($('link[rel=canonical]').attr('href'), origin + path, path);
     if (path !== '/') {

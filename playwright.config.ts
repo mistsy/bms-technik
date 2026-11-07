@@ -6,7 +6,7 @@ const chromiumLaunchOptions = process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH
 
 export default defineConfig({
   testDir: './test',
-  testMatch: 'browser.spec.ts',
+  testMatch: ['browser.spec.ts', 'layout.spec.ts'],
   fullyParallel: true,
   workers: 2,
   use: {
@@ -16,6 +16,7 @@ export default defineConfig({
   projects: [
     { name: 'desktop', use: { launchOptions: chromiumLaunchOptions, viewport: { width: 1440, height: 1000 } } },
     { name: 'mobile', use: { launchOptions: chromiumLaunchOptions, viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true } },
+    { name: 'webkit-desktop', use: { browserName: 'webkit', viewport: { width: 1440, height: 1000 } } },
     { name: 'webkit-iphone', use: { ...devices['iPhone 13'], browserName: 'webkit' } },
     { name: 'webkit-iphone-se', use: { ...devices['iPhone SE'], browserName: 'webkit' } },
   ],

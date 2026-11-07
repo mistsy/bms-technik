@@ -142,6 +142,11 @@ export default {
       asset = await env.ASSETS.fetch(new Request(assetURL, { method: head ? 'HEAD' : 'GET' }));
     }
     const headers = headersFor(preview, asset.headers);
+    // Astro fingerprints these URLs. Reuse shared styles/fonts across native
+    // page navigations without a validation round trip.
+    if (asset.ok && /^\/_astro\/[^/]+\.[\w-]{8}\.(?:css|js|woff2)$/.test(url.pathname)) {
+      headers.set('Cache-Control', 'public, max-age=31536000, immutable');
+    }
     let result;
     if (resolution.contact && status === 200) {
       if (request.method === 'POST') result = await submitContact(request, env);
