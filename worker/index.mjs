@@ -144,7 +144,7 @@ export default {
     const headers = headersFor(preview, asset.headers);
     // Astro fingerprints these URLs. Reuse shared styles/fonts across native
     // page navigations without a validation round trip.
-    if (asset.ok && /^\/_astro\/[^/]+\.[\w-]{8}\.(?:css|js|woff2)$/.test(url.pathname)) {
+    if ([200, 304].includes(status) && /^\/_astro\/[^/]+\.[\w-]{8}\.(?:css|js|woff2)$/.test(url.pathname)) {
       headers.set('Cache-Control', 'public, max-age=31536000, immutable');
     }
     let result;
