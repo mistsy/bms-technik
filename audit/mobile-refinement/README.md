@@ -68,3 +68,11 @@ node scripts/capture-mobile-refinement.mjs
 ```
 
 `BMS_BROWSER_ORIGIN` wskazuje zdalny podgląd zarówno dla testów, jak i skryptu zrzutów. Nie przebudowuj równolegle `dist/` używanego przez testowany lokalny Worker.
+
+## Korekta aktywacji linków menu
+
+Po zgłoszeniu niedziałających linków odtworzono dodatkową sekwencję: `mousedown`/dotyk powoduje opuszczenie fokusu przez `summary`, ale nie ustawia fokusu na odnośniku, więc `focusout.relatedTarget` jest `null`. Poprzedni warunek zamykał wtedy panel i ustawiał `inert` przed aktywacją linku, anulując nawigację.
+
+Kontroler zamyka teraz menu po przeniesieniu fokusu do konkretnego elementu poza panelem. Brak docelowego elementu nie przerywa aktywacji odnośnika. Kliknięcie poza panelem, Tab do treści i Escape nadal zamykają menu. Nie dodano opóźnienia ani ręcznego przekierowania przez JavaScript.
+
+Nowy test regresyjny najpierw odtworzył brak nawigacji na poprzedniej wersji Cloudflare Preview. Po poprawce sprawdza wszystkie trzy linki kolejno ze strony głównej i podstron, rzeczywiste kliknięcia/dotyk oraz sekwencję opuszczenia fokusu bez `relatedTarget`. Wcześniejsze testy używały kliknięć, przy których WebKit na Linuxie przekazywał konkretny docelowy link; nie obejmowały tego przypadku.

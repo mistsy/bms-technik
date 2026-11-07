@@ -449,3 +449,34 @@ test('switching peers halfway through opening leaves only the final requested pa
   await expect(page.locator('.accordion details[open]')).toHaveCount(1);
   await expect(page.locator('.accordion details').first()).toHaveCSS('overflow', 'visible');
 });
+
+test('menu links navigate with touch or mouse, including blur without a focus destination', async ({ page }, testInfo) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  for (const blurWithoutDestination of [false, true]) {
+    await page.goto('/');
+    for (const href of ['/rekuperacja/', '/klimatyzacja/', '/kontakt/']) {
+      const toggle = page.locator('.mobile-menu summary');
+      await expect(toggle).toHaveAttribute('aria-expanded', 'false');
+      if (blurWithoutDestination) {
+        await toggle.focus();
+        await page.keyboard.press('Enter');
+        await page.locator('.mobile-menu nav').evaluate((panel) => {
+          panel.addEventListener('mousedown', (event) => {
+            if (!(event.target instanceof Element) || !event.target.closest('a')) return;
+            // Safari can blur the old control without focusing the tapped anchor.
+            // Reproduce that native focus sequence, preserving the anchor's click.
+            event.preventDefault();
+            (document.activeElement as HTMLElement).blur();
+          });
+        });
+      } else if (testInfo.project.use.hasTouch) await toggle.tap();
+      else await toggle.click();
+      await expect(toggle).toHaveAttribute('aria-expanded', 'true');
+      const link = page.locator(`.mobile-menu a[href="${href}"]`);
+      if (testInfo.project.use.hasTouch) await link.tap();
+      else await link.click();
+      await expect(page).toHaveURL(href);
+      await expect(toggle).toHaveAttribute('aria-expanded', 'false');
+    }
+  }
+});

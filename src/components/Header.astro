@@ -89,9 +89,11 @@ const { path } = Astro.props;
     }
   });
   menu.addEventListener('focusout', (event) => {
-    // WebKit can flush microtasks between blur and focus, when activeElement
-    // is still body. Use the destination to avoid closing between menu links.
-    if (!(event.relatedTarget instanceof Node) || !menu.contains(event.relatedTarget)) setExpanded(false);
+    // A pointer activation may blur summary without focusing the tapped link.
+    // A null destination does not mean focus moved outside: closing here would
+    // make the pending link inert before its click can activate navigation.
+    // Actual focus transfers outside and outside clicks still close the panel.
+    if (event.relatedTarget instanceof Node && !menu.contains(event.relatedTarget)) setExpanded(false);
   });
   document.addEventListener('click', (event) => {
     if (event.target instanceof Node && !menu.contains(event.target)) setExpanded(false);
