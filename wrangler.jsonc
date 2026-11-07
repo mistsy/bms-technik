@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "bms-technik-preview",
+  "name": "bms-technik",
   "main": "./worker/index.mjs",
   "compatibility_date": "2026-11-06",
   "compatibility_flags": ["nodejs_compat"],
