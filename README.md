@@ -32,6 +32,7 @@ Podgląd działa pod `http://127.0.0.1:8787/`. W drugim terminalu uruchom `npm r
 - [Dopracowanie mobile i hero usług](audit/mobile-refinement/README.md) dokumentuje diagnozę WebKit, zdjęcia realizacji i rozszerzone testy przeglądarkowe.
 - [Stabilność layoutu podczas nawigacji](audit/layout-stability/completion.md) zawiera końcową weryfikację fontów, nagłówka i Menu oraz zachowane pomiary poprzedniej sesji.
 - [Korekta charakteru wizualnego](audit/visual-refinement/README.md) zawiera analizę pierwowzoru, porównania przed/po, zrzuty aktualnego builda oraz wyniki testów interakcji.
+- [Końcowy visual polish](audit/final-polish/README.md) dokumentuje miękki cień nagłówka, korektę czerwieni i kadrów hero oraz porównania desktop/mobile.
 
 ### Testy przeglądarkowe
 

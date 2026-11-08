@@ -1,0 +1,65 @@
+
+> test
+> npm run build && node --test test/build.test.mjs test/routes.test.mjs test/contact.test.mjs
+
+
+> build
+> npm run prepare:audit && astro build
+
+
+> prepare:audit
+> node scripts/prepare-audit.mjs
+
+Snapshot: 247 ścieżek mediów, 31 załączników.
+09:22:01 [types] Generated 197ms
+09:22:01 [build] output: "static"
+09:22:01 [build] mode: "static"
+09:22:01 [build] directory: /home/ubuntu/workspaces/bms-technik/repo/dist/
+09:22:01 [build] Collecting build info...
+09:22:01 [build] ✓ Completed in 330ms.
+09:22:01 [build] Building static entrypoints...
+09:22:03 [vite] ✓ built in 1.72s
+09:22:03 [vite] ✓ built in 356ms
+09:22:04 [build] Rearranging server assets...
+
+ generating static routes
+09:22:04   ├─ /404.html (+33ms)
+09:22:04   ├─ /klimatyzacja/index.html (+13ms)
+09:22:04   ├─ /kontakt/index.html (+7ms)
+09:22:04   ├─ /polityka-prywatnosci/index.html (+6ms)
+09:22:04   ├─ /rekuperacja/index.html (+9ms)
+09:22:04   ├─ /robots.txt (+8ms)
+09:22:04   ├─ /sitemap.xml (+4ms)
+09:22:04   ├─ /index.html (+6ms)
+09:22:04 ✓ Completed in 113ms.
+
+09:22:04 [build] ✓ Completed in 2.86s.
+09:22:04 [build] 6 page(s) built in 3.22s
+09:22:04 [build] Complete!
+✔ HTML / (83.5142ms)
+✔ HTML /rekuperacja/ (39.968662ms)
+✔ HTML /klimatyzacja/ (44.424171ms)
+✔ HTML /kontakt/ (20.373717ms)
+✔ HTML /polityka-prywatnosci/ (9.642416ms)
+✔ Pięć URL-i w sitemapie; robots wskazuje nową mapę (6.726066ms)
+✔ Cały inwentarz uploads zgadza się bajt w bajt ze snapshotem (629.313682ms)
+✔ Zachowano kolejność miniatur i powiększenia obu galerii (35.327629ms)
+✔ Kontakt zachowuje kategorie, zgodę i limit wiadomości (5.763883ms)
+✔ Brak konfiguracji lub flagi blokuje wysyłkę (83.256587ms)
+✔ Walidacja i honeypot odrzucają dane przed żądaniem do dostawcy (13.235954ms)
+✔ Turnstile sprawdza success, action, host i nie pozwala wysłać przy powtórzeniu tokenu (6.934312ms)
+✔ Sprawdzony formularz przekazuje wiadomość tylko do ustawionego odbiorcy (16.953521ms)
+✔ Awaria Turnstile i błąd dostawcy poczty mają osobne odpowiedzi (3.683732ms)
+✔ Macierz HTTPS, www, końcowego ukośnika i index.html (60.662958ms)
+✔ Wszystkie 31 stron załączników kierują w jednym kroku do właściwego pliku (19.358581ms)
+✔ Historyczne aliasy manifestu mają zachowany cel lub jawną politykę wycofania (18.026077ms)
+✔ Odkryte widoki osadzania, feedy i REST mają odpowiedzi 410 (15.51754ms)
+✔ Podgląd zachowuje host, nierozpoznana ścieżka trafia do obsługi 404 (1.512259ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2048.713749

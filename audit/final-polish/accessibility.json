@@ -1,0 +1,444 @@
+[
+  {
+    "device": "desktop",
+    "path": "/",
+    "violations": [],
+    "manualContrastTargets": [
+      [
+        "#home-title"
+      ],
+      [
+        ".choice-location"
+      ],
+      [
+        ".footer-wordmark"
+      ],
+      [
+        ".footer-brand > p:nth-child(2)"
+      ],
+      [
+        "div:nth-child(2) > h2"
+      ],
+      [
+        "address > a[href=\"tel:604959993\"]"
+      ],
+      [
+        "a[href=\"mailto:biuro@bmstechnik.pl\"]"
+      ],
+      [
+        "a[href=\"mailto:m.adamek@bmstechnik.pl\"]"
+      ],
+      [
+        "div:nth-child(3) > h2"
+      ],
+      [
+        "address > span:nth-child(1)"
+      ],
+      [
+        "address > span:nth-child(2)"
+      ]
+    ]
+  },
+  {
+    "device": "desktop",
+    "path": "/klimatyzacja/",
+    "violations": [],
+    "manualContrastTargets": [
+      [
+        ".back-link"
+      ],
+      [
+        ".intro-inner > div > .eyebrow"
+      ],
+      [
+        "h1"
+      ],
+      [
+        ".lead"
+      ],
+      [
+        ".footer-wordmark"
+      ],
+      [
+        ".footer-brand > p:nth-child(2)"
+      ],
+      [
+        "div:nth-child(2) > h2"
+      ],
+      [
+        "address > a[href=\"tel:604959993\"]"
+      ],
+      [
+        "a[href=\"mailto:biuro@bmstechnik.pl\"]"
+      ],
+      [
+        "a[href=\"mailto:m.adamek@bmstechnik.pl\"]"
+      ],
+      [
+        "div:nth-child(3) > h2"
+      ],
+      [
+        "address > span:nth-child(1)"
+      ],
+      [
+        "address > span:nth-child(2)"
+      ]
+    ]
+  },
+  {
+    "device": "desktop",
+    "path": "/rekuperacja/",
+    "violations": [],
+    "manualContrastTargets": [
+      [
+        ".back-link"
+      ],
+      [
+        ".intro-inner > div > .eyebrow"
+      ],
+      [
+        "h1"
+      ],
+      [
+        ".lead"
+      ],
+      [
+        ".footer-wordmark"
+      ],
+      [
+        ".footer-brand > p:nth-child(2)"
+      ],
+      [
+        "div:nth-child(2) > h2"
+      ],
+      [
+        "address > a[href=\"tel:604959993\"]"
+      ],
+      [
+        "a[href=\"mailto:biuro@bmstechnik.pl\"]"
+      ],
+      [
+        "a[href=\"mailto:m.adamek@bmstechnik.pl\"]"
+      ],
+      [
+        "div:nth-child(3) > h2"
+      ],
+      [
+        "address > span:nth-child(1)"
+      ],
+      [
+        "address > span:nth-child(2)"
+      ]
+    ]
+  },
+  {
+    "device": "desktop",
+    "path": "/kontakt/",
+    "violations": [],
+    "manualContrastTargets": [
+      [
+        ".back-link"
+      ],
+      [
+        "div > .eyebrow"
+      ],
+      [
+        "h1"
+      ],
+      [
+        ".lead"
+      ],
+      [
+        ".footer-wordmark"
+      ],
+      [
+        ".footer-brand > p:nth-child(2)"
+      ],
+      [
+        "div:nth-child(2) > h2"
+      ],
+      [
+        "div:nth-child(2) > address > a[href=\"tel:604959993\"]"
+      ],
+      [
+        "div:nth-child(2) > address > a[href=\"mailto:biuro@bmstechnik.pl\"]"
+      ],
+      [
+        "div:nth-child(2) > address > a[href=\"mailto:m.adamek@bmstechnik.pl\"]"
+      ],
+      [
+        "div:nth-child(3) > h2"
+      ],
+      [
+        "address > span:nth-child(1)"
+      ],
+      [
+        "address > span:nth-child(2)"
+      ]
+    ]
+  },
+  {
+    "device": "desktop",
+    "path": "/polityka-prywatnosci/",
+    "violations": [],
+    "manualContrastTargets": [
+      [
+        ".back-link"
+      ],
+      [
+        ".eyebrow"
+      ],
+      [
+        "h1"
+      ],
+      [
+        ".footer-wordmark"
+      ],
+      [
+        ".footer-brand > p:nth-child(2)"
+      ],
+      [
+        "div:nth-child(2) > h2"
+      ],
+      [
+        "address > a[href=\"tel:604959993\"]"
+      ],
+      [
+        "a[href=\"mailto:biuro@bmstechnik.pl\"]"
+      ],
+      [
+        "a[href=\"mailto:m.adamek@bmstechnik.pl\"]"
+      ],
+      [
+        "div:nth-child(3) > h2"
+      ],
+      [
+        "address > span:nth-child(1)"
+      ],
+      [
+        "address > span:nth-child(2)"
+      ]
+    ]
+  },
+  {
+    "device": "mobile",
+    "path": "/",
+    "violations": [],
+    "manualContrastTargets": [
+      [
+        "#home-title"
+      ],
+      [
+        ".choice-location"
+      ],
+      [
+        ".footer-wordmark"
+      ],
+      [
+        ".footer-brand > p:nth-child(2)"
+      ],
+      [
+        "div:nth-child(2) > h2"
+      ],
+      [
+        "address > a[href=\"tel:604959993\"]"
+      ],
+      [
+        "a[href=\"mailto:biuro@bmstechnik.pl\"]"
+      ],
+      [
+        "a[href=\"mailto:m.adamek@bmstechnik.pl\"]"
+      ],
+      [
+        "div:nth-child(3) > h2"
+      ],
+      [
+        "address > span:nth-child(1)"
+      ],
+      [
+        "address > span:nth-child(2)"
+      ]
+    ]
+  },
+  {
+    "device": "mobile",
+    "path": "/klimatyzacja/",
+    "violations": [],
+    "manualContrastTargets": [
+      [
+        ".back-link"
+      ],
+      [
+        ".intro-inner > div > .eyebrow"
+      ],
+      [
+        "h1"
+      ],
+      [
+        ".lead"
+      ],
+      [
+        ".footer-wordmark"
+      ],
+      [
+        ".footer-brand > p:nth-child(2)"
+      ],
+      [
+        "div:nth-child(2) > h2"
+      ],
+      [
+        "address > a[href=\"tel:604959993\"]"
+      ],
+      [
+        "a[href=\"mailto:biuro@bmstechnik.pl\"]"
+      ],
+      [
+        "a[href=\"mailto:m.adamek@bmstechnik.pl\"]"
+      ],
+      [
+        "div:nth-child(3) > h2"
+      ],
+      [
+        "address > span:nth-child(1)"
+      ],
+      [
+        "address > span:nth-child(2)"
+      ]
+    ]
+  },
+  {
+    "device": "mobile",
+    "path": "/rekuperacja/",
+    "violations": [],
+    "manualContrastTargets": [
+      [
+        ".back-link"
+      ],
+      [
+        ".intro-inner > div > .eyebrow"
+      ],
+      [
+        "h1"
+      ],
+      [
+        ".lead"
+      ],
+      [
+        ".footer-wordmark"
+      ],
+      [
+        ".footer-brand > p:nth-child(2)"
+      ],
+      [
+        "div:nth-child(2) > h2"
+      ],
+      [
+        "address > a[href=\"tel:604959993\"]"
+      ],
+      [
+        "a[href=\"mailto:biuro@bmstechnik.pl\"]"
+      ],
+      [
+        "a[href=\"mailto:m.adamek@bmstechnik.pl\"]"
+      ],
+      [
+        "div:nth-child(3) > h2"
+      ],
+      [
+        "address > span:nth-child(1)"
+      ],
+      [
+        "address > span:nth-child(2)"
+      ]
+    ]
+  },
+  {
+    "device": "mobile",
+    "path": "/kontakt/",
+    "violations": [],
+    "manualContrastTargets": [
+      [
+        ".back-link"
+      ],
+      [
+        "div > .eyebrow"
+      ],
+      [
+        "h1"
+      ],
+      [
+        ".lead"
+      ],
+      [
+        ".footer-wordmark"
+      ],
+      [
+        ".footer-brand > p:nth-child(2)"
+      ],
+      [
+        "div:nth-child(2) > h2"
+      ],
+      [
+        "div:nth-child(2) > address > a[href=\"tel:604959993\"]"
+      ],
+      [
+        "div:nth-child(2) > address > a[href=\"mailto:biuro@bmstechnik.pl\"]"
+      ],
+      [
+        "div:nth-child(2) > address > a[href=\"mailto:m.adamek@bmstechnik.pl\"]"
+      ],
+      [
+        "div:nth-child(3) > h2"
+      ],
+      [
+        "address > span:nth-child(1)"
+      ],
+      [
+        "address > span:nth-child(2)"
+      ]
+    ]
+  },
+  {
+    "device": "mobile",
+    "path": "/polityka-prywatnosci/",
+    "violations": [],
+    "manualContrastTargets": [
+      [
+        ".back-link"
+      ],
+      [
+        ".eyebrow"
+      ],
+      [
+        "h1"
+      ],
+      [
+        ".footer-wordmark"
+      ],
+      [
+        ".footer-brand > p:nth-child(2)"
+      ],
+      [
+        "div:nth-child(2) > h2"
+      ],
+      [
+        "address > a[href=\"tel:604959993\"]"
+      ],
+      [
+        "a[href=\"mailto:biuro@bmstechnik.pl\"]"
+      ],
+      [
+        "a[href=\"mailto:m.adamek@bmstechnik.pl\"]"
+      ],
+      [
+        "div:nth-child(3) > h2"
+      ],
+      [
+        "address > span:nth-child(1)"
+      ],
+      [
+        "address > span:nth-child(2)"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "method": "WCAG sRGB relative luminance. All pixels of the original blueprint after its existing #ffffff40 overlay; conservative brightest double grid line in footer.",
+  "results": [
+    {
+      "case": "Red text / white",
+      "foreground": "#ca271e",
+      "background": "#ffffff",
+      "ratio": 5.497
+    },
+    {
+      "case": "Red text / darkest blueprint",
+      "foreground": "#ca271e",
+      "background": "#eae9e8",
+      "ratio": 4.534
+    },
+    {
+      "case": "White button text / primary red",
+      "foreground": "#ffffff",
+      "background": "#df3026",
+      "ratio": 4.577
+    },
+    {
+      "case": "Footer headings / brightest grid intersection",
+      "foreground": "#ff8f85",
+      "background": "#414141",
+      "ratio": 4.627
+    },
+    {
+      "case": "Decorative accent / darkest blueprint",
+      "foreground": "#ff2d23",
+      "background": "#eae9e8",
+      "ratio": 3.064
+    }
+  ]
+}
