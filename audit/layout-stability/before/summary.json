@@ -1,0 +1,7730 @@
+[
+  {
+    "name": "chromium-desktop",
+    "scenario": "cold-slow",
+    "pages": [
+      {
+        "path": "/",
+        "direction": "forward",
+        "cls": 0.002761485912181713,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 56.78125,
+            "y": 0,
+            "width": 111.421875,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 2.140625,
+            "y": 0,
+            "width": 2.140625,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 2
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 2
+          },
+          ".service-choice": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 1120,
+            "duration": 0,
+            "navigationId": 9076,
+            "paintTime": 1008.9000000059605,
+            "presentationTime": 1120
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 1120,
+            "duration": 0,
+            "navigationId": 9076,
+            "paintTime": 1008.9000000059605,
+            "presentationTime": 1120
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 1034.5999999940395,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 1651.5999999940395,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/rekuperacja/",
+        "direction": "forward",
+        "cls": 0.0058427139998070985,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 56.78125,
+            "y": 0,
+            "width": 111.421875,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 2.140625,
+            "y": 0,
+            "width": 2.140625,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 32.5,
+            "width": 0,
+            "height": 65
+          },
+          ".lead": {
+            "x": 0,
+            "y": 32.5,
+            "width": 30.125,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 864,
+            "duration": 0,
+            "navigationId": 3704,
+            "paintTime": 774.3000000119209,
+            "presentationTime": 864
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 864,
+            "duration": 0,
+            "navigationId": 3704,
+            "paintTime": 774.3000000119209,
+            "presentationTime": 864
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 799.3000000119209,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 1457.5,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/klimatyzacja/",
+        "direction": "forward",
+        "cls": 0.0009292268277391976,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 56.78125,
+            "y": 0,
+            "width": 111.421875,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 2.140625,
+            "y": 0,
+            "width": 2.140625,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 23.09375
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 30.125,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 23.09375
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 916,
+            "duration": 0,
+            "navigationId": 4008,
+            "paintTime": 828.3000000119209,
+            "presentationTime": 916
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 916,
+            "duration": 0,
+            "navigationId": 4008,
+            "paintTime": 828.3000000119209,
+            "presentationTime": 916
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 848.5,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 1415.5,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/kontakt/",
+        "direction": "forward",
+        "cls": 0.0013583968701774691,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 56.78125,
+            "y": 0,
+            "width": 111.421875,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 2.140625,
+            "y": 0,
+            "width": 2.140625,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 40.625,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 40.625,
+            "height": 0
+          },
+          ".contact-grid": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 876,
+            "duration": 0,
+            "navigationId": 1076,
+            "paintTime": 780.5,
+            "presentationTime": 876
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 876,
+            "duration": 0,
+            "navigationId": 1076,
+            "paintTime": 780.5,
+            "presentationTime": 876
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 797.2000000178814,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 1412.7000000178814,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/polityka-prywatnosci/",
+        "direction": "forward",
+        "cls": 0.0009252318431712963,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 56.78125,
+            "y": 0,
+            "width": 111.421875,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 2.140625,
+            "y": 0,
+            "width": 2.140625,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 195.125,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 856,
+            "duration": 0,
+            "navigationId": 3392,
+            "paintTime": 770,
+            "presentationTime": 856
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 856,
+            "duration": 0,
+            "navigationId": 3392,
+            "paintTime": 770,
+            "presentationTime": 856
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 786.4000000059605,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 1330.4000000059605,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/kontakt/",
+        "direction": "back",
+        "cls": 0.0013583968701774691,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 56.78125,
+            "y": 0,
+            "width": 111.421875,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 2.140625,
+            "y": 0,
+            "width": 2.140625,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 40.625,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 40.625,
+            "height": 0
+          },
+          ".contact-grid": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 704,
+            "duration": 0,
+            "navigationId": 8400,
+            "paintTime": 646.3000000119209,
+            "presentationTime": 704
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 704,
+            "duration": 0,
+            "navigationId": 8400,
+            "paintTime": 646.3000000119209,
+            "presentationTime": 704
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 651.1999999880791,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 1219.699999988079,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/klimatyzacja/",
+        "direction": "back",
+        "cls": 0.0009292268277391976,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 56.78125,
+            "y": 0,
+            "width": 111.421875,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 2.140625,
+            "y": 0,
+            "width": 2.140625,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 23.09375
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 30.125,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 23.09375
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 892,
+            "duration": 0,
+            "navigationId": 294,
+            "paintTime": 796.1000000238419,
+            "presentationTime": 892
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 892,
+            "duration": 0,
+            "navigationId": 294,
+            "paintTime": 796.1000000238419,
+            "presentationTime": 892
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 828.2000000178814,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 1405.7000000178814,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/rekuperacja/",
+        "direction": "back",
+        "cls": 0.0058427139998070985,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 56.78125,
+            "y": 0,
+            "width": 111.421875,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 2.140625,
+            "y": 0,
+            "width": 2.140625,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 32.5,
+            "width": 0,
+            "height": 65
+          },
+          ".lead": {
+            "x": 0,
+            "y": 32.5,
+            "width": 30.125,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 972,
+            "duration": 0,
+            "navigationId": 991,
+            "paintTime": 861.5,
+            "presentationTime": 972
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 972,
+            "duration": 0,
+            "navigationId": 991,
+            "paintTime": 861.5,
+            "presentationTime": 972
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 888.6999999880791,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 1464.8999999761581,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/",
+        "direction": "back",
+        "cls": 0.002761485912181713,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 56.78125,
+            "y": 0,
+            "width": 111.421875,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 2.140625,
+            "y": 0,
+            "width": 2.140625,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 2
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 2
+          },
+          ".service-choice": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 880,
+            "duration": 0,
+            "navigationId": 8570,
+            "paintTime": 761.7999999821186,
+            "presentationTime": 880
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 880,
+            "duration": 0,
+            "navigationId": 8570,
+            "paintTime": 761.7999999821186,
+            "presentationTime": 880
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 780.1999999880791,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 1362.7999999821186,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "chromium-desktop",
+    "scenario": "warm-native",
+    "pages": [
+      {
+        "path": "/",
+        "direction": "forward",
+        "cls": 0.004999035041714892,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 56.78125,
+            "y": 0,
+            "width": 111.421875,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 2.140625,
+            "y": 0,
+            "width": 2.140625,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 2
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 2
+          },
+          ".service-choice": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 396,
+            "duration": 0,
+            "navigationId": 2341,
+            "paintTime": 245.5,
+            "presentationTime": 396
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 396,
+            "duration": 0,
+            "navigationId": 2341,
+            "paintTime": 245.5,
+            "presentationTime": 396
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 268.40000000596046,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 379.59999999403954,
+            "faces": [
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/rekuperacja/",
+        "direction": "forward",
+        "cls": 0.006678396161868249,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 56.78125,
+            "y": 0,
+            "width": 111.421875,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 2.140625,
+            "y": 0,
+            "width": 2.140625,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 32.5,
+            "width": 0,
+            "height": 65
+          },
+          ".lead": {
+            "x": 0,
+            "y": 32.5,
+            "width": 30.125,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 308,
+            "duration": 0,
+            "navigationId": 6368,
+            "paintTime": 152,
+            "presentationTime": 308
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 308,
+            "duration": 0,
+            "navigationId": 6368,
+            "paintTime": 152,
+            "presentationTime": 308
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 162.5,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 292.19999998807907,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/klimatyzacja/",
+        "direction": "forward",
+        "cls": 0.00886345187717014,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 56.78125,
+            "y": 0,
+            "width": 111.421875,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 2.140625,
+            "y": 0,
+            "width": 2.140625,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 52.78125
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 15.171875,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 15.171875,
+            "width": 107.53125,
+            "height": 30.359375
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 26.390625
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 288,
+            "duration": 0,
+            "navigationId": 478,
+            "paintTime": 137.5,
+            "presentationTime": 288
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 288,
+            "duration": 0,
+            "navigationId": 478,
+            "paintTime": 137.5,
+            "presentationTime": 288
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 176.90000000596046,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 233.59999999403954,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/kontakt/",
+        "direction": "forward",
+        "cls": 0.006144538498866705,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 56.78125,
+            "y": 0,
+            "width": 111.421875,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 2.140625,
+            "y": 0,
+            "width": 2.140625,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 40.625,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 40.625,
+            "height": 0
+          },
+          ".contact-grid": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 244,
+            "duration": 0,
+            "navigationId": 3611,
+            "paintTime": 126.60000002384186,
+            "presentationTime": 244
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 244,
+            "duration": 0,
+            "navigationId": 3611,
+            "paintTime": 126.60000002384186,
+            "presentationTime": 244
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 147.80000001192093,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 175.30000001192093,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/polityka-prywatnosci/",
+        "direction": "forward",
+        "cls": 0.005204783619068287,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 56.78125,
+            "y": 0,
+            "width": 111.421875,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 2.140625,
+            "y": 0,
+            "width": 2.140625,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 195.125,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 260,
+            "duration": 0,
+            "navigationId": 316,
+            "paintTime": 138,
+            "presentationTime": 260
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 260,
+            "duration": 0,
+            "navigationId": 316,
+            "paintTime": 138,
+            "presentationTime": 260
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 152.09999999403954,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 184.90000000596046,
+            "faces": [
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/kontakt/",
+        "direction": "back",
+        "cls": 0,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".contact-grid": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 180,
+            "duration": 0,
+            "navigationId": 2630,
+            "paintTime": 89.7000000178814,
+            "presentationTime": 180
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 180,
+            "duration": 0,
+            "navigationId": 2630,
+            "paintTime": 89.7000000178814,
+            "presentationTime": 180
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 105.2000000178814,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 105.7000000178814,
+            "faces": [
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/klimatyzacja/",
+        "direction": "back",
+        "cls": 0,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 160,
+            "duration": 0,
+            "navigationId": 3370,
+            "paintTime": 80,
+            "presentationTime": 160
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 160,
+            "duration": 0,
+            "navigationId": 3370,
+            "paintTime": 80,
+            "presentationTime": 160
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 67.40000000596046,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 88.7999999821186,
+            "faces": [
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/rekuperacja/",
+        "direction": "back",
+        "cls": 0,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 184,
+            "duration": 0,
+            "navigationId": 8981,
+            "paintTime": 59.29999998211861,
+            "presentationTime": 184
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 184,
+            "duration": 0,
+            "navigationId": 8981,
+            "paintTime": 59.29999998211861,
+            "presentationTime": 184
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 57.599999994039536,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 62.5,
+            "faces": [
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/",
+        "direction": "back",
+        "cls": 0,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".service-choice": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 128,
+            "duration": 0,
+            "navigationId": 1837,
+            "paintTime": 47.69999998807907,
+            "presentationTime": 128
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 128,
+            "duration": 0,
+            "navigationId": 1837,
+            "paintTime": 47.69999998807907,
+            "presentationTime": 128
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 45.900000005960464,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 49.400000005960464,
+            "faces": [
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "chromium-mobile",
+    "scenario": "cold-slow",
+    "pages": [
+      {
+        "path": "/",
+        "direction": "forward",
+        "cls": 0,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 54.375
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 22.859375,
+            "y": 0,
+            "width": 45.71875,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 26.390625
+          },
+          ".service-choice": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 960,
+            "duration": 0,
+            "navigationId": 3496,
+            "paintTime": 897.2999999821186,
+            "presentationTime": 960
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 960,
+            "duration": 0,
+            "navigationId": 3496,
+            "paintTime": 897.2999999821186,
+            "presentationTime": 960
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 911.2999999821186,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 1469,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/rekuperacja/",
+        "direction": "forward",
+        "cls": 0,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 277.15625
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 87.390625
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 40
+          },
+          ".lead": {
+            "x": 0,
+            "y": 40,
+            "width": 0,
+            "height": 26.390625
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 66.390625,
+            "width": 0,
+            "height": 21
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 66.390625,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 87.390625,
+            "width": 0,
+            "height": 35
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 824,
+            "duration": 0,
+            "navigationId": 2621,
+            "paintTime": 784.3000000119209,
+            "presentationTime": 824
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 824,
+            "duration": 0,
+            "navigationId": 2621,
+            "paintTime": 784.3000000119209,
+            "presentationTime": 824
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 794.5,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 1382,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/klimatyzacja/",
+        "direction": "forward",
+        "cls": 0,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 146.078125
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 21
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 21
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 21,
+            "width": 0,
+            "height": 58.09375
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 836,
+            "duration": 0,
+            "navigationId": 2762,
+            "paintTime": 796.5999999940395,
+            "presentationTime": 836
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 836,
+            "duration": 0,
+            "navigationId": 2762,
+            "paintTime": 796.5999999940395,
+            "presentationTime": 836
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 807.0999999940395,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 1400.699999988079,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/kontakt/",
+        "direction": "forward",
+        "cls": 0,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".contact-grid": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 752,
+            "duration": 0,
+            "navigationId": 2806,
+            "paintTime": 702.0999999940395,
+            "presentationTime": 752
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 752,
+            "duration": 0,
+            "navigationId": 2806,
+            "paintTime": 702.0999999940395,
+            "presentationTime": 752
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 718.8000000119209,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 1274.4000000059605,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/polityka-prywatnosci/",
+        "direction": "forward",
+        "cls": 0,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 92.78125
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 40
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 77.390625,
+            "height": 40
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 744,
+            "duration": 0,
+            "navigationId": 5331,
+            "paintTime": 701.3999999761581,
+            "presentationTime": 744
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 744,
+            "duration": 0,
+            "navigationId": 5331,
+            "paintTime": 701.3999999761581,
+            "presentationTime": 744
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 715.6999999880791,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 1298.5999999940395,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/kontakt/",
+        "direction": "back",
+        "cls": 0,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".contact-grid": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 804,
+            "duration": 0,
+            "navigationId": 9231,
+            "paintTime": 777.3000000119209,
+            "presentationTime": 804
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 804,
+            "duration": 0,
+            "navigationId": 9231,
+            "paintTime": 777.3000000119209,
+            "presentationTime": 804
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 785.6000000238419,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 1333,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/klimatyzacja/",
+        "direction": "back",
+        "cls": 0,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 146.078125
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 21
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 21
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 21,
+            "width": 0,
+            "height": 58.09375
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 784,
+            "duration": 0,
+            "navigationId": 9720,
+            "paintTime": 753.2999999821186,
+            "presentationTime": 784
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 784,
+            "duration": 0,
+            "navigationId": 9720,
+            "paintTime": 753.2999999821186,
+            "presentationTime": 784
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 766.1999999880791,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 1311.199999988079,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/rekuperacja/",
+        "direction": "back",
+        "cls": 0,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 277.15625
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 87.390625
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 40
+          },
+          ".lead": {
+            "x": 0,
+            "y": 40,
+            "width": 0,
+            "height": 26.390625
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 66.390625,
+            "width": 0,
+            "height": 21
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 66.390625,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 87.390625,
+            "width": 0,
+            "height": 35
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 780,
+            "duration": 0,
+            "navigationId": 7514,
+            "paintTime": 726.2000000178814,
+            "presentationTime": 780
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 780,
+            "duration": 0,
+            "navigationId": 7514,
+            "paintTime": 726.2000000178814,
+            "presentationTime": 780
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 757.5,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 1290.5,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/",
+        "direction": "back",
+        "cls": 0.002487099684735351,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 54.375
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 22.859375,
+            "y": 0,
+            "width": 45.71875,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 26.390625
+          },
+          ".service-choice": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 852,
+            "duration": 0,
+            "navigationId": 5520,
+            "paintTime": 809.6999999880791,
+            "presentationTime": 852
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 852,
+            "duration": 0,
+            "navigationId": 5520,
+            "paintTime": 809.6999999880791,
+            "presentationTime": 852
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 833.7999999821186,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 1398.9000000059605,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "chromium-mobile",
+    "scenario": "warm-native",
+    "pages": [
+      {
+        "path": "/",
+        "direction": "forward",
+        "cls": 0,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 54.375
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 22.859375,
+            "y": 0,
+            "width": 45.71875,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 22.390625
+          },
+          ".service-choice": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 380,
+            "duration": 0,
+            "navigationId": 2555,
+            "paintTime": 307.69999998807907,
+            "presentationTime": 380
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 380,
+            "duration": 0,
+            "navigationId": 2555,
+            "paintTime": 307.69999998807907,
+            "presentationTime": 380
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 351.40000000596046,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 528.1999999880791,
+            "faces": [
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/rekuperacja/",
+        "direction": "forward",
+        "cls": 0,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 277.15625
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 87.390625
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 40
+          },
+          ".lead": {
+            "x": 0,
+            "y": 40,
+            "width": 0,
+            "height": 26.390625
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 66.390625,
+            "width": 0,
+            "height": 21
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 66.390625,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 87.390625,
+            "width": 0,
+            "height": 35
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 256,
+            "duration": 0,
+            "navigationId": 2849,
+            "paintTime": 161.30000001192093,
+            "presentationTime": 256
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 256,
+            "duration": 0,
+            "navigationId": 2849,
+            "paintTime": 161.30000001192093,
+            "presentationTime": 256
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 177.5,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 226.10000002384186,
+            "faces": [
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/klimatyzacja/",
+        "direction": "forward",
+        "cls": 0,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 146.078125
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 21
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 21
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 21,
+            "width": 0,
+            "height": 58.09375
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 224,
+            "duration": 0,
+            "navigationId": 3675,
+            "paintTime": 134.09999999403954,
+            "presentationTime": 224
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 224,
+            "duration": 0,
+            "navigationId": 3675,
+            "paintTime": 134.09999999403954,
+            "presentationTime": 224
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 158.39999997615814,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 247.09999999403954,
+            "faces": [
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/kontakt/",
+        "direction": "forward",
+        "cls": 0,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 12,
+            "y": 0,
+            "width": 12,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 12,
+            "y": 0,
+            "width": 12,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".contact-grid": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 180,
+            "duration": 0,
+            "navigationId": 4478,
+            "paintTime": 138.09999999403954,
+            "presentationTime": 180
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 180,
+            "duration": 0,
+            "navigationId": 4478,
+            "paintTime": 138.09999999403954,
+            "presentationTime": 180
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 147.40000000596046,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 193,
+            "faces": [
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/polityka-prywatnosci/",
+        "direction": "forward",
+        "cls": 0,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 92.78125
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 40
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 77.390625,
+            "height": 40
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 184,
+            "duration": 0,
+            "navigationId": 9105,
+            "paintTime": 131.2000000178814,
+            "presentationTime": 184
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 184,
+            "duration": 0,
+            "navigationId": 9105,
+            "paintTime": 131.2000000178814,
+            "presentationTime": 184
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 137.90000000596046,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 168.7000000178814,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/kontakt/",
+        "direction": "back",
+        "cls": 0,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".contact-grid": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 124,
+            "duration": 0,
+            "navigationId": 129,
+            "paintTime": 94.5,
+            "presentationTime": 124
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 124,
+            "duration": 0,
+            "navigationId": 129,
+            "paintTime": 94.5,
+            "presentationTime": 124
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 98.5,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 99,
+            "faces": [
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/klimatyzacja/",
+        "direction": "back",
+        "cls": 0,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 104,
+            "duration": 0,
+            "navigationId": 6980,
+            "paintTime": 65.40000000596046,
+            "presentationTime": 104
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 104,
+            "duration": 0,
+            "navigationId": 6980,
+            "paintTime": 65.40000000596046,
+            "presentationTime": 104
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 63.099999994039536,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 68.40000000596046,
+            "faces": [
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/rekuperacja/",
+        "direction": "back",
+        "cls": 0,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 152,
+            "duration": 0,
+            "navigationId": 3314,
+            "paintTime": 70.40000000596046,
+            "presentationTime": 152
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 152,
+            "duration": 0,
+            "navigationId": 3314,
+            "paintTime": 70.40000000596046,
+            "presentationTime": 152
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 52.400000005960464,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 52.69999998807907,
+            "faces": [
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/",
+        "direction": "back",
+        "cls": 0,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".service-choice": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 124,
+            "duration": 0,
+            "navigationId": 252,
+            "paintTime": 62.900000005960464,
+            "presentationTime": 124
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 124,
+            "duration": 0,
+            "navigationId": 252,
+            "paintTime": 62.900000005960464,
+            "presentationTime": 124
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 69.30000001192093,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 69.80000001192093,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "webkit-desktop",
+    "scenario": "cold-slow",
+    "pages": [
+      {
+        "path": "/",
+        "direction": "forward",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 54.171875,
+            "y": 0,
+            "width": 105.28125,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 3.078125,
+            "y": 0,
+            "width": 3.078125,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 2
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 2
+          },
+          ".service-choice": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 959,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 963,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/rekuperacja/",
+        "direction": "forward",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 54.171875,
+            "y": 0,
+            "width": 105.28125,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 3.078125,
+            "y": 0,
+            "width": 3.078125,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 32.5,
+            "width": 0,
+            "height": 65
+          },
+          ".lead": {
+            "x": 0,
+            "y": 32.5,
+            "width": 20.46875,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 885,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 890,
+            "faces": []
+          },
+          {
+            "type": "loading",
+            "time": 1094,
+            "faces": []
+          },
+          {
+            "type": "loading",
+            "time": 1595,
+            "faces": []
+          },
+          {
+            "type": "loading",
+            "time": 1595,
+            "faces": []
+          },
+          {
+            "type": "loading",
+            "time": 1595,
+            "faces": []
+          },
+          {
+            "type": "loading",
+            "time": 1937,
+            "faces": []
+          },
+          {
+            "type": "loading",
+            "time": 1937,
+            "faces": []
+          },
+          {
+            "type": "loading",
+            "time": 1937,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/klimatyzacja/",
+        "direction": "forward",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 54.171875,
+            "y": 0,
+            "width": 105.28125,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 3.078125,
+            "y": 0,
+            "width": 3.078125,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 23.09375
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 20.46875,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 23.09375
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 745,
+            "duration": 0
+          }
+        ],
+        "fonts": []
+      },
+      {
+        "path": "/kontakt/",
+        "direction": "forward",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 54.171875,
+            "y": 0,
+            "width": 105.28125,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 3.078125,
+            "y": 0,
+            "width": 3.078125,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 27.59375,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 27.59375,
+            "height": 0
+          },
+          ".contact-grid": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 752,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 755,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/polityka-prywatnosci/",
+        "direction": "forward",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 1.53125,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 3.078125,
+            "y": 0,
+            "width": 3.078125,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 6.109375,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 1009,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 654,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/kontakt/",
+        "direction": "back",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 54.171875,
+            "y": 0,
+            "width": 105.28125,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 3.078125,
+            "y": 0,
+            "width": 3.078125,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 27.59375,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 27.59375,
+            "height": 0
+          },
+          ".contact-grid": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 701,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 706,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/klimatyzacja/",
+        "direction": "back",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 54.171875,
+            "y": 0,
+            "width": 105.28125,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 3.078125,
+            "y": 0,
+            "width": 3.078125,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 23.09375
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 20.46875,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 23.09375
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 799,
+            "duration": 0
+          }
+        ],
+        "fonts": []
+      },
+      {
+        "path": "/rekuperacja/",
+        "direction": "back",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 54.171875,
+            "y": 0,
+            "width": 105.28125,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 3.078125,
+            "y": 0,
+            "width": 3.078125,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 32.5,
+            "width": 0,
+            "height": 65
+          },
+          ".lead": {
+            "x": 0,
+            "y": 32.5,
+            "width": 20.46875,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 857,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 866,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/",
+        "direction": "back",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 54.171875,
+            "y": 0,
+            "width": 105.28125,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 3.078125,
+            "y": 0,
+            "width": 3.078125,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 2
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 2
+          },
+          ".service-choice": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 766,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 769,
+            "faces": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "webkit-desktop",
+    "scenario": "warm-native",
+    "pages": [
+      {
+        "path": "/",
+        "direction": "forward",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 54.171875,
+            "y": 0,
+            "width": 105.28125,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 3.078125,
+            "y": 0,
+            "width": 3.078125,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 2
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 2
+          },
+          ".service-choice": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 281,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 301,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/rekuperacja/",
+        "direction": "forward",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 54.171875,
+            "y": 0,
+            "width": 105.28125,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 3.078125,
+            "y": 0,
+            "width": 3.078125,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 32.5,
+            "width": 0,
+            "height": 65
+          },
+          ".lead": {
+            "x": 0,
+            "y": 32.5,
+            "width": 20.46875,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 191,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 200,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/klimatyzacja/",
+        "direction": "forward",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 54.171875,
+            "y": 0,
+            "width": 105.28125,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 3.078125,
+            "y": 0,
+            "width": 3.078125,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 23.09375
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 20.46875,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 23.09375
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 151,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 161,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/kontakt/",
+        "direction": "forward",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 54.171875,
+            "y": 0,
+            "width": 105.28125,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 3.078125,
+            "y": 0,
+            "width": 3.078125,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 27.59375,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 27.59375,
+            "height": 0
+          },
+          ".contact-grid": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 157,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 174,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/polityka-prywatnosci/",
+        "direction": "forward",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 54.171875,
+            "y": 0,
+            "width": 105.28125,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 3.078125,
+            "y": 0,
+            "width": 3.078125,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 196.375,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 125,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 129,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/kontakt/",
+        "direction": "back",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".contact-grid": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 96,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 104,
+            "faces": []
+          },
+          {
+            "type": "loading",
+            "time": 104,
+            "faces": []
+          },
+          {
+            "type": "loading",
+            "time": 104,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/klimatyzacja/",
+        "direction": "back",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 106,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 112,
+            "faces": []
+          },
+          {
+            "type": "loading",
+            "time": 112,
+            "faces": []
+          },
+          {
+            "type": "loading",
+            "time": 112,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/rekuperacja/",
+        "direction": "back",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 92,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 108,
+            "faces": []
+          },
+          {
+            "type": "loading",
+            "time": 108,
+            "faces": []
+          },
+          {
+            "type": "loading",
+            "time": 108,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/",
+        "direction": "back",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".service-choice": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 93,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 107,
+            "faces": []
+          },
+          {
+            "type": "loading",
+            "time": 107,
+            "faces": []
+          },
+          {
+            "type": "loading",
+            "time": 107,
+            "faces": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "webkit-mobile",
+    "scenario": "cold-slow",
+    "pages": [
+      {
+        "path": "/",
+        "direction": "forward",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 54.375
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 29.578125,
+            "y": 0,
+            "width": 59.171875,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 24.390625
+          },
+          ".service-choice": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 972,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 982,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/rekuperacja/",
+        "direction": "forward",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 277.15625
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 87.390625
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 40
+          },
+          ".lead": {
+            "x": 0,
+            "y": 40,
+            "width": 0,
+            "height": 26.390625
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 66.390625,
+            "width": 0,
+            "height": 21
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 66.390625,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 87.390625,
+            "width": 0,
+            "height": 35
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 850,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 854,
+            "faces": []
+          },
+          {
+            "type": "loading",
+            "time": 1022,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/klimatyzacja/",
+        "direction": "forward",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 195.5625
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 21
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 21
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 21,
+            "width": 0,
+            "height": 81.1875
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 856,
+            "duration": 0
+          }
+        ],
+        "fonts": []
+      },
+      {
+        "path": "/kontakt/",
+        "direction": "forward",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".contact-grid": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 722,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 724,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/polityka-prywatnosci/",
+        "direction": "forward",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 52.78125
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 3.765625,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 1050,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 708,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/kontakt/",
+        "direction": "back",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".contact-grid": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 736,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 740,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/klimatyzacja/",
+        "direction": "back",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 195.5625
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 21
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 21
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 21,
+            "width": 0,
+            "height": 81.1875
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 812,
+            "duration": 0
+          }
+        ],
+        "fonts": []
+      },
+      {
+        "path": "/rekuperacja/",
+        "direction": "back",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 277.15625
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 87.390625
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 40
+          },
+          ".lead": {
+            "x": 0,
+            "y": 40,
+            "width": 0,
+            "height": 26.390625
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 66.390625,
+            "width": 0,
+            "height": 21
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 66.390625,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 87.390625,
+            "width": 0,
+            "height": 35
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 807,
+            "duration": 0
+          }
+        ],
+        "fonts": []
+      },
+      {
+        "path": "/",
+        "direction": "back",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 54.375
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 29.578125,
+            "y": 0,
+            "width": 59.171875,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 24.390625
+          },
+          ".service-choice": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 868,
+            "duration": 0
+          }
+        ],
+        "fonts": []
+      }
+    ]
+  },
+  {
+    "name": "webkit-mobile",
+    "scenario": "warm-native",
+    "pages": [
+      {
+        "path": "/",
+        "direction": "forward",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 54.375
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 29.578125,
+            "y": 0,
+            "width": 59.171875,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 22.390625
+          },
+          ".service-choice": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 415,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 506,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/rekuperacja/",
+        "direction": "forward",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 277.15625
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 87.390625
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 40
+          },
+          ".lead": {
+            "x": 0,
+            "y": 40,
+            "width": 0,
+            "height": 26.390625
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 66.390625,
+            "width": 0,
+            "height": 21
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 66.390625,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 87.390625,
+            "width": 0,
+            "height": 35
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 175,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 180,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/klimatyzacja/",
+        "direction": "forward",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 195.5625
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 21
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 21
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 21,
+            "width": 0,
+            "height": 81.1875
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 145,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 149,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/kontakt/",
+        "direction": "forward",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".contact-grid": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 164,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 180,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/polityka-prywatnosci/",
+        "direction": "forward",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 3.5625,
+            "y": 0,
+            "width": 3.5625,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 92.78125
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 40
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 79.9375,
+            "height": 40
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 121,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 138,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/kontakt/",
+        "direction": "back",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".contact-grid": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 123,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 130,
+            "faces": []
+          },
+          {
+            "type": "loading",
+            "time": 130,
+            "faces": []
+          },
+          {
+            "type": "loading",
+            "time": 130,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/klimatyzacja/",
+        "direction": "back",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 97,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 102,
+            "faces": []
+          },
+          {
+            "type": "loading",
+            "time": 102,
+            "faces": []
+          },
+          {
+            "type": "loading",
+            "time": 102,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/rekuperacja/",
+        "direction": "back",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 97,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 102,
+            "faces": []
+          },
+          {
+            "type": "loading",
+            "time": 102,
+            "faces": []
+          },
+          {
+            "type": "loading",
+            "time": 102,
+            "faces": []
+          }
+        ]
+      },
+      {
+        "path": "/",
+        "direction": "back",
+        "cls": null,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".service-choice": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 90,
+            "duration": 0
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 97,
+            "faces": []
+          },
+          {
+            "type": "loading",
+            "time": 97,
+            "faces": []
+          },
+          {
+            "type": "loading",
+            "time": 97,
+            "faces": []
+          }
+        ]
+      }
+    ]
+  }
+]

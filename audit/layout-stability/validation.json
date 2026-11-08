@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-07",
+  "commit": "b391b42c1463ea299ab2d4602ffb8202a2b0aae7",
+  "build": "53f9a0e5-22c2-4ca2-9280-4560dcc1f3d4",
+  "preview": "https://5e654bc5-bms-technik.michal-steff.workers.dev",
+  "branchPreview": "https://refine-restore-original-visual-identity-bms-technik.michal-steff.workers.dev",
+  "baselineCommit": "fddefabe8565fe88d245107ccb35d382ea8c6482",
+  "baselinePreview": "https://567ab9c4-bms-technik.michal-steff.workers.dev",
+  "checks": {
+    "npmTest": {
+      "passed": 19,
+      "failed": 0
+    },
+    "localHttp": {
+      "passed": 4,
+      "failed": 0
+    },
+    "localGeometry": {
+      "passed": 15,
+      "failed": 0
+    },
+    "cloudflarePlaywright": {
+      "passed": 103,
+      "skipped": 2,
+      "failed": 0,
+      "projects": 5,
+      "workers": 1
+    },
+    "cloudflareHttp": "Both hosts: five HTML documents and CSS/font SHA-256 match local build; 200/304 immutable; missing hashed URL 404 without immutable; 301, 410, robots and noindex verified",
+    "wranglerDryRun": {
+      "assets": 280,
+      "success": true
+    },
+    "oldPreviewRegression": {
+      "expectedFailure": true,
+      "selector": ".mobile-menu summary",
+      "axis": "width",
+      "delta": 2.53125
+    }
+  }
+}

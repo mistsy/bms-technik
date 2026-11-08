@@ -30,6 +30,7 @@ Podgląd działa pod `http://127.0.0.1:8787/`. W drugim terminalu uruchom `npm r
 - Przy pierwszym renderowaniu strona korzysta z lokalnych fontów Monda i Share Tech oraz oryginalnego logo, ikon i wzoru technicznego. Licencje OFL są w [licenses](licenses/).
 - [Zrzuty referencyjne i podgląd](audit/screenshots/) obejmują wszystkie pięć adresów starej strony na desktopie i mobile. Zrzuty `after-*` pokazują nową stronę główną, kontakt i powiększenie zdjęcia.
 - [Dopracowanie mobile i hero usług](audit/mobile-refinement/README.md) dokumentuje diagnozę WebKit, zdjęcia realizacji i rozszerzone testy przeglądarkowe.
+- [Stabilność layoutu podczas nawigacji](audit/layout-stability/completion.md) zawiera końcową weryfikację fontów, nagłówka i Menu oraz zachowane pomiary poprzedniej sesji.
 - [Korekta charakteru wizualnego](audit/visual-refinement/README.md) zawiera analizę pierwowzoru, porównania przed/po, zrzuty aktualnego builda oraz wyniki testów interakcji.
 
 ### Testy przeglądarkowe

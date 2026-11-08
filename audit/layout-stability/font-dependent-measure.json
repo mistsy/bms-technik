@@ -1,0 +1,619 @@
+{
+  "commit": "b391b42c1463ea299ab2d4602ffb8202a2b0aae7",
+  "baseURL": "https://5e654bc5-bms-technik.michal-steff.workers.dev",
+  "description": "Preloaded optional fonts, fixed header; remaining ch-based text measure changes while Latin arrives after the Polish subset. Replaced by em-based measures in the final patch.",
+  "browserVersion": "27.2",
+  "result": {
+    "path": "/kontakt/",
+    "direction": "forward",
+    "cls": null,
+    "changes": {
+      ".site-header": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".header-inner": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".brand img": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".desktop-nav": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".header-phone": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "main": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "main > :first-child": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "h1": {
+        "x": 0,
+        "y": 0,
+        "width": 16.484375,
+        "height": 0
+      },
+      ".lead": {
+        "x": 0,
+        "y": 0,
+        "width": 16.484375,
+        "height": 0
+      },
+      ".contact-grid": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "filmstrip": [],
+    "renderedFonts": {},
+    "frames": [
+      {
+        "time": 858,
+        "boxes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 89
+          },
+          ".header-inner": {
+            "x": 120,
+            "y": 0,
+            "width": 1200,
+            "height": 88
+          },
+          ".brand img": {
+            "x": 120,
+            "y": 18.984375,
+            "width": 82.390625,
+            "height": 50.015625
+          },
+          ".desktop-nav": {
+            "x": 469.96875,
+            "y": 20,
+            "width": 430.4375,
+            "height": 48
+          },
+          ".header-phone": {
+            "x": 1168,
+            "y": 22,
+            "width": 152,
+            "height": 44
+          },
+          "main": {
+            "x": 0,
+            "y": 89,
+            "width": 1440,
+            "height": 1219.171875
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 89,
+            "width": 1440,
+            "height": 352.953125
+          },
+          "h1": {
+            "x": 120,
+            "y": 220.875,
+            "width": 634.546875,
+            "height": 65
+          },
+          ".lead": {
+            "x": 120,
+            "y": 300.265625,
+            "width": 634.546875,
+            "height": 60.6875
+          },
+          ".contact-grid": {
+            "x": 120,
+            "y": 441.953125,
+            "width": 1200,
+            "height": 866.21875
+          }
+        },
+        "parsing": false,
+        "viewport": 1440,
+        "fontStatus": "loading",
+        "loaded": [
+          "Monda",
+          "Share Tech",
+          "Monda Fallback"
+        ]
+      },
+      {
+        "time": 930,
+        "boxes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 89
+          },
+          ".header-inner": {
+            "x": 120,
+            "y": 0,
+            "width": 1200,
+            "height": 88
+          },
+          ".brand img": {
+            "x": 120,
+            "y": 18.984375,
+            "width": 82.390625,
+            "height": 50.015625
+          },
+          ".desktop-nav": {
+            "x": 469.96875,
+            "y": 20,
+            "width": 430.4375,
+            "height": 48
+          },
+          ".header-phone": {
+            "x": 1168,
+            "y": 22,
+            "width": 152,
+            "height": 44
+          },
+          "main": {
+            "x": 0,
+            "y": 89,
+            "width": 1440,
+            "height": 1219.171875
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 89,
+            "width": 1440,
+            "height": 352.953125
+          },
+          "h1": {
+            "x": 120,
+            "y": 220.875,
+            "width": 651.03125,
+            "height": 65
+          },
+          ".lead": {
+            "x": 120,
+            "y": 300.265625,
+            "width": 651.03125,
+            "height": 60.6875
+          },
+          ".contact-grid": {
+            "x": 120,
+            "y": 441.953125,
+            "width": 1200,
+            "height": 866.21875
+          }
+        },
+        "parsing": false,
+        "viewport": 1440,
+        "fontStatus": "loaded",
+        "loaded": [
+          "Monda",
+          "Monda",
+          "Share Tech",
+          "Monda Fallback"
+        ]
+      }
+    ],
+    "fonts": [
+      {
+        "type": "loading",
+        "time": 883,
+        "faces": []
+      }
+    ],
+    "shifts": [],
+    "styleStates": [
+      {
+        "time": 858,
+        "styled": true
+      }
+    ],
+    "clsSupported": false,
+    "resources": [
+      {
+        "name": "https://5e654bc5-bms-technik.michal-steff.workers.dev/_astro/monda-latin.CA-x7JvY.woff2",
+        "entryType": "resource",
+        "startTime": 294,
+        "duration": 569,
+        "initiatorType": "link",
+        "nextHopProtocol": "",
+        "workerStart": 0,
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 294,
+        "domainLookupStart": 294,
+        "domainLookupEnd": 294,
+        "connectStart": 294,
+        "connectEnd": 294,
+        "secureConnectionStart": 0,
+        "requestStart": 294,
+        "finalResponseHeadersStart": 0,
+        "firstInterimResponseStart": 0,
+        "responseStart": 0,
+        "responseEnd": 863,
+        "transferSize": 0,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedRouterSource": "",
+        "workerFinalRouterSource": "",
+        "deliveryType": "",
+        "serverTiming": []
+      },
+      {
+        "name": "https://5e654bc5-bms-technik.michal-steff.workers.dev/_astro/monda-polish.CtvPb8kL.woff2",
+        "entryType": "resource",
+        "startTime": 295,
+        "duration": 234,
+        "initiatorType": "link",
+        "nextHopProtocol": "",
+        "workerStart": 0,
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 295,
+        "domainLookupStart": 295,
+        "domainLookupEnd": 295,
+        "connectStart": 295,
+        "connectEnd": 295,
+        "secureConnectionStart": 0,
+        "requestStart": 295,
+        "finalResponseHeadersStart": 0,
+        "firstInterimResponseStart": 0,
+        "responseStart": 0,
+        "responseEnd": 529,
+        "transferSize": 0,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedRouterSource": "",
+        "workerFinalRouterSource": "",
+        "deliveryType": "",
+        "serverTiming": []
+      },
+      {
+        "name": "https://5e654bc5-bms-technik.michal-steff.workers.dev/_astro/share-tech.Coc7_46J.woff2",
+        "entryType": "resource",
+        "startTime": 295,
+        "duration": 407,
+        "initiatorType": "link",
+        "nextHopProtocol": "",
+        "workerStart": 0,
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 295,
+        "domainLookupStart": 295,
+        "domainLookupEnd": 295,
+        "connectStart": 295,
+        "connectEnd": 295,
+        "secureConnectionStart": 0,
+        "requestStart": 295,
+        "finalResponseHeadersStart": 0,
+        "firstInterimResponseStart": 0,
+        "responseStart": 0,
+        "responseEnd": 702,
+        "transferSize": 0,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedRouterSource": "",
+        "workerFinalRouterSource": "",
+        "deliveryType": "",
+        "serverTiming": []
+      },
+      {
+        "name": "https://5e654bc5-bms-technik.michal-steff.workers.dev/_astro/Layout.uM0hqpEV.css",
+        "entryType": "resource",
+        "startTime": 296,
+        "duration": 409,
+        "initiatorType": "link",
+        "nextHopProtocol": "",
+        "workerStart": 0,
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 296,
+        "domainLookupStart": 296,
+        "domainLookupEnd": 296,
+        "connectStart": 296,
+        "connectEnd": 296,
+        "secureConnectionStart": 0,
+        "requestStart": 296,
+        "finalResponseHeadersStart": 0,
+        "firstInterimResponseStart": 0,
+        "responseStart": 0,
+        "responseEnd": 705,
+        "transferSize": 0,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedRouterSource": "",
+        "workerFinalRouterSource": "",
+        "deliveryType": "",
+        "serverTiming": []
+      },
+      {
+        "name": "https://5e654bc5-bms-technik.michal-steff.workers.dev/wp-content/uploads/2022/03/logo.svg",
+        "entryType": "resource",
+        "startTime": 298,
+        "duration": 571,
+        "initiatorType": "img",
+        "nextHopProtocol": "",
+        "workerStart": 0,
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 298,
+        "domainLookupStart": 298,
+        "domainLookupEnd": 298,
+        "connectStart": 298,
+        "connectEnd": 298,
+        "secureConnectionStart": 0,
+        "requestStart": 298,
+        "finalResponseHeadersStart": 0,
+        "firstInterimResponseStart": 0,
+        "responseStart": 0,
+        "responseEnd": 869,
+        "transferSize": 0,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedRouterSource": "",
+        "workerFinalRouterSource": "",
+        "deliveryType": "",
+        "serverTiming": []
+      },
+      {
+        "name": "https://5e654bc5-bms-technik.michal-steff.workers.dev/_astro/Header.astro_astro_type_script_index_0_lang.BCRXc0LE.js",
+        "entryType": "resource",
+        "startTime": 299,
+        "duration": 197,
+        "initiatorType": "script",
+        "nextHopProtocol": "",
+        "workerStart": 0,
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 299,
+        "domainLookupStart": 299,
+        "domainLookupEnd": 299,
+        "connectStart": 299,
+        "connectEnd": 299,
+        "secureConnectionStart": 0,
+        "requestStart": 299,
+        "finalResponseHeadersStart": 0,
+        "firstInterimResponseStart": 0,
+        "responseStart": 0,
+        "responseEnd": 496,
+        "transferSize": 0,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedRouterSource": "",
+        "workerFinalRouterSource": "",
+        "deliveryType": "",
+        "serverTiming": []
+      },
+      {
+        "name": "https://5e654bc5-bms-technik.michal-steff.workers.dev/_astro/AccordionMotion.astro_astro_type_script_index_0_lang.CmUOT5YI.js",
+        "entryType": "resource",
+        "startTime": 301,
+        "duration": 201,
+        "initiatorType": "script",
+        "nextHopProtocol": "",
+        "workerStart": 0,
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 301,
+        "domainLookupStart": 301,
+        "domainLookupEnd": 301,
+        "connectStart": 301,
+        "connectEnd": 301,
+        "secureConnectionStart": 0,
+        "requestStart": 301,
+        "finalResponseHeadersStart": 0,
+        "firstInterimResponseStart": 0,
+        "responseStart": 0,
+        "responseEnd": 502,
+        "transferSize": 0,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedRouterSource": "",
+        "workerFinalRouterSource": "",
+        "deliveryType": "",
+        "serverTiming": []
+      },
+      {
+        "name": "https://5e654bc5-bms-technik.michal-steff.workers.dev/_astro/motion.DBVUVjlF.js",
+        "entryType": "resource",
+        "startTime": 498,
+        "duration": 167,
+        "initiatorType": "script",
+        "nextHopProtocol": "",
+        "workerStart": 0,
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 498,
+        "domainLookupStart": 498,
+        "domainLookupEnd": 498,
+        "connectStart": 498,
+        "connectEnd": 498,
+        "secureConnectionStart": 0,
+        "requestStart": 498,
+        "finalResponseHeadersStart": 0,
+        "firstInterimResponseStart": 0,
+        "responseStart": 0,
+        "responseEnd": 665,
+        "transferSize": 0,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedRouterSource": "",
+        "workerFinalRouterSource": "",
+        "deliveryType": "",
+        "serverTiming": []
+      },
+      {
+        "name": "https://5e654bc5-bms-technik.michal-steff.workers.dev/wp-content/uploads/2022/03/bg-home-1024x683.jpg",
+        "entryType": "resource",
+        "startTime": 814,
+        "duration": 447,
+        "initiatorType": "css",
+        "nextHopProtocol": "",
+        "workerStart": 0,
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 814,
+        "domainLookupStart": 814,
+        "domainLookupEnd": 814,
+        "connectStart": 814,
+        "connectEnd": 814,
+        "secureConnectionStart": 0,
+        "requestStart": 814,
+        "finalResponseHeadersStart": 0,
+        "firstInterimResponseStart": 0,
+        "responseStart": 0,
+        "responseEnd": 1261,
+        "transferSize": 0,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedRouterSource": "",
+        "workerFinalRouterSource": "",
+        "deliveryType": "",
+        "serverTiming": []
+      }
+    ],
+    "paints": [
+      {
+        "name": "first-contentful-paint",
+        "entryType": "paint",
+        "startTime": 859,
+        "duration": 0
+      }
+    ],
+    "styles": [
+      {
+        "href": "https://5e654bc5-bms-technik.michal-steff.workers.dev/_astro/Layout.uM0hqpEV.css",
+        "rules": 205
+      }
+    ],
+    "faces": [
+      {
+        "family": "Monda",
+        "weight": "400 700",
+        "status": "loaded",
+        "unicodeRange": "U+104-107, U+118-119, U+141-144, U+15a-15b, U+179-17c"
+      },
+      {
+        "family": "Monda",
+        "weight": "400 700",
+        "status": "loaded",
+        "unicodeRange": "U+0-ff, U+131, U+152-153, U+2bb-2bc, U+2c6, U+2da, U+2dc, U+304, U+308, U+329, U+2000-206f, U+20ac, U+2122, U+2191, U+2193, U+2212, U+2215, U+feff, U+fffd"
+      },
+      {
+        "family": "Share Tech",
+        "weight": "400",
+        "status": "loaded",
+        "unicodeRange": "U+0-10FFFF"
+      },
+      {
+        "family": "Monda Fallback",
+        "weight": "400",
+        "status": "loaded",
+        "unicodeRange": "U+0-10FFFF"
+      },
+      {
+        "family": "Monda Fallback",
+        "weight": "700",
+        "status": "error",
+        "unicodeRange": "U+0-10FFFF"
+      },
+      {
+        "family": "Share Tech Fallback",
+        "weight": "400",
+        "status": "unloaded",
+        "unicodeRange": "U+0, U+d, U+20-7e, U+a0-ff, U+131, U+152-153, U+2c6, U+2da, U+2dc, U+2013-2014, U+2018-201a, U+201c-201e, U+2022, U+2026, U+2039-203a, U+2044, U+20ac, U+2122, U+2212, U+2215"
+      },
+      {
+        "family": "Share Tech Caps Fallback",
+        "weight": "400",
+        "status": "unloaded",
+        "unicodeRange": "U+0, U+d, U+20-7e, U+a0-ff, U+131, U+152-153, U+2c6, U+2da, U+2dc, U+2013-2014, U+2018-201a, U+201c-201e, U+2022, U+2026, U+2039-203a, U+2044, U+20ac, U+2122, U+2212, U+2215"
+      }
+    ],
+    "navigation": {
+      "name": "https://5e654bc5-bms-technik.michal-steff.workers.dev/kontakt/",
+      "entryType": "navigation",
+      "startTime": 0,
+      "duration": 1262,
+      "initiatorType": "navigation",
+      "nextHopProtocol": "",
+      "workerStart": 0,
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 0,
+      "domainLookupStart": 0,
+      "domainLookupEnd": 0,
+      "connectStart": 0,
+      "connectEnd": 0,
+      "secureConnectionStart": 0,
+      "requestStart": 0,
+      "finalResponseHeadersStart": 0,
+      "firstInterimResponseStart": 0,
+      "responseStart": 0,
+      "responseEnd": 302,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "decodedBodySize": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedRouterSource": "",
+      "workerFinalRouterSource": "",
+      "deliveryType": "",
+      "serverTiming": [],
+      "unloadEventStart": 279,
+      "unloadEventEnd": 279,
+      "domInteractive": 302,
+      "domContentLoadedEventStart": 670,
+      "domContentLoadedEventEnd": 670,
+      "domComplete": 1262,
+      "loadEventStart": 1262,
+      "loadEventEnd": 1262,
+      "type": "navigate",
+      "redirectCount": 0
+    }
+  }
+}
