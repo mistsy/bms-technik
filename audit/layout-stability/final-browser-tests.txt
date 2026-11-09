@@ -1,0 +1,58 @@
+
+> test:browser
+> playwright test --project=desktop --project=mobile --workers=1
+
+
+Running 44 tests using 1 worker
+
+(node:233667) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [desktop] › test/browser.spec.ts:3:1 › both equal service choices fit the first screen, including small phones and landscape (4.4s)
+  ✓   2 [desktop] › test/browser.spec.ts:27:1 › service choices navigate directly and menu remains keyboard accessible (2.6s)
+  ✓   3 [desktop] › test/browser.spec.ts:50:1 › accordion animates both heights, synchronizes ARIA and keeps closed content out of Tab order (1.6s)
+  ✓   4 [desktop] › test/browser.spec.ts:95:1 › accordion reversals and exclusive peers settle without clipped content (1.9s)
+  ✓   5 [desktop] › test/browser.spec.ts:111:1 › reduced motion disables accordion animation and decorative movement (978ms)
+  ✓   6 [desktop] › test/browser.spec.ts:125:1 › gallery supports keyboard navigation, Escape and returning focus (2.5s)
+  ✓   7 [desktop] › test/browser.spec.ts:146:1 › all pages have no horizontal overflow, broken images or script errors (3.8s)
+  ✓   8 [desktop] › test/browser.spec.ts:162:1 › without JavaScript, native accordions and service links remain usable (1.5s)
+  -   9 [desktop] › test/browser.spec.ts:177:1 › WebKit can initialize before CSS arrives and still animate the first interaction
+  ✓  10 [desktop] › test/browser.spec.ts:201:1 › reversing halfway preserves rendered accordion height, opacity and translation (720ms)
+  ✓  11 [desktop] › test/browser.spec.ts:227:1 › accordion follows content growth and viewport changes during motion then returns to intrinsic height (2.2s)
+  ✓  12 [desktop] › test/browser.spec.ts:264:1 › menu animates both ways, keeps the header stationary and reverses without flashing (1.5s)
+  ✓  13 [desktop] › test/browser.spec.ts:305:1 › menu supports Tab, Escape, outside click, navigation and back without stale state (3.5s)
+  ✓  14 [desktop] › test/browser.spec.ts:348:1 › changing reduced motion during closing immediately settles menu and accordion (1.0s)
+  ✓  15 [desktop] › test/browser.spec.ts:377:1 › service heroes use original responsive photography with a different composition from the next section (3.0s)
+  ✓  16 [desktop] › test/browser.spec.ts:400:1 › accordion produces intermediate rendered frames during real opening and closing (2.9s)
+  ✓  17 [desktop] › test/browser.spec.ts:434:1 › switching peers halfway through opening leaves only the final requested panel open (1.3s)
+  ✓  18 [desktop] › test/browser.spec.ts:453:1 › menu links navigate with touch or mouse, including blur without a focus destination (4.9s)
+  ✓  19 [desktop] › test/layout.spec.ts:26:1 › cold first styled frame is stable before fonts.ready, then after fonts and images settle (7.8s)
+  ✓  20 [desktop] › test/layout.spec.ts:66:1 › native forward navigation and history keep first-frame geometry stable (6.0s)
+  ✓  21 [desktop] › test/layout.spec.ts:87:1 › staggered Latin and Polish subsets cannot change text measures (6.2s)
+  ✓  22 [desktop] › test/layout.spec.ts:145:1 › scrollbar reservation keeps header and content aligned on short and long documents (632ms)
+(node:234152) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  23 [mobile] › test/browser.spec.ts:3:1 › both equal service choices fit the first screen, including small phones and landscape (3.2s)
+  ✓  24 [mobile] › test/browser.spec.ts:27:1 › service choices navigate directly and menu remains keyboard accessible (2.0s)
+  ✓  25 [mobile] › test/browser.spec.ts:50:1 › accordion animates both heights, synchronizes ARIA and keeps closed content out of Tab order (1.5s)
+  ✓  26 [mobile] › test/browser.spec.ts:95:1 › accordion reversals and exclusive peers settle without clipped content (1.6s)
+  ✓  27 [mobile] › test/browser.spec.ts:111:1 › reduced motion disables accordion animation and decorative movement (871ms)
+  ✓  28 [mobile] › test/browser.spec.ts:125:1 › gallery supports keyboard navigation, Escape and returning focus (2.4s)
+  ✓  29 [mobile] › test/browser.spec.ts:146:1 › all pages have no horizontal overflow, broken images or script errors (3.9s)
+  ✓  30 [mobile] › test/browser.spec.ts:162:1 › without JavaScript, native accordions and service links remain usable (1.3s)
+  -  31 [mobile] › test/browser.spec.ts:177:1 › WebKit can initialize before CSS arrives and still animate the first interaction
+  ✓  32 [mobile] › test/browser.spec.ts:201:1 › reversing halfway preserves rendered accordion height, opacity and translation (581ms)
+  ✓  33 [mobile] › test/browser.spec.ts:227:1 › accordion follows content growth and viewport changes during motion then returns to intrinsic height (2.0s)
+  ✓  34 [mobile] › test/browser.spec.ts:264:1 › menu animates both ways, keeps the header stationary and reverses without flashing (1.6s)
+  ✓  35 [mobile] › test/browser.spec.ts:305:1 › menu supports Tab, Escape, outside click, navigation and back without stale state (3.5s)
+  ✓  36 [mobile] › test/browser.spec.ts:348:1 › changing reduced motion during closing immediately settles menu and accordion (1.1s)
+  ✓  37 [mobile] › test/browser.spec.ts:377:1 › service heroes use original responsive photography with a different composition from the next section (2.9s)
+  ✓  38 [mobile] › test/browser.spec.ts:400:1 › accordion produces intermediate rendered frames during real opening and closing (2.8s)
+  ✓  39 [mobile] › test/browser.spec.ts:434:1 › switching peers halfway through opening leaves only the final requested panel open (1.1s)
+  ✓  40 [mobile] › test/browser.spec.ts:453:1 › menu links navigate with touch or mouse, including blur without a focus destination (5.1s)
+  ✓  41 [mobile] › test/layout.spec.ts:26:1 › cold first styled frame is stable before fonts.ready, then after fonts and images settle (7.7s)
+  ✓  42 [mobile] › test/layout.spec.ts:66:1 › native forward navigation and history keep first-frame geometry stable (6.0s)
+  ✓  43 [mobile] › test/layout.spec.ts:87:1 › staggered Latin and Polish subsets cannot change text measures (6.0s)
+  ✓  44 [mobile] › test/layout.spec.ts:145:1 › scrollbar reservation keeps header and content aligned on short and long documents (654ms)
+
+  2 skipped
+  42 passed (2.1m)

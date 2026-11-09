@@ -13,11 +13,103 @@ const { path } = Astro.props;
     </nav>
     <a class="header-phone" href={phone.href}><Icon name="phone" /> {phone.text}</a>
     <details class="mobile-menu">
-      <summary><Icon name="menu" /><span>Menu</span></summary>
-      <nav aria-label="Menu główne">
+      <summary aria-controls="mobile-navigation" aria-label="Menu główne">
+        <span class="menu-label">Menu</span>
+        <span class="menu-glyph" aria-hidden="true"><span></span><span></span><span></span></span>
+      </summary>
+      <nav id="mobile-navigation" aria-label="Menu główne">
         <ul>{navigation.map(({ label, href }) => <li><a href={href} aria-current={href === path ? 'page' : undefined}>{label}</a></li>)}</ul>
         <a href={phone.href}><Icon name="phone" /> {phone.text}</a>
       </nav>
     </details>
   </div>
 </header>
+
+<script>
+  import { motionOptions, reducedMotion } from '../scripts/motion';
+
+  const menu = document.querySelector<HTMLDetailsElement>('.mobile-menu')!;
+  const toggle = menu.querySelector('summary')!;
+  const panel = menu.querySelector('nav')!;
+  const mobile = window.matchMedia('(max-width: 53rem)');
+  let expanded = menu.open;
+  let animation: Animation | undefined;
+
+  function updateState() {
+    toggle.setAttribute('aria-expanded', String(expanded));
+    toggle.setAttribute('aria-label', expanded ? 'Zamknij menu' : 'Otwórz menu');
+    menu.dataset.expanded = String(expanded);
+    panel.inert = !expanded;
+  }
+
+  function cancel() {
+    if (animation) animation.onfinish = null;
+    animation?.cancel();
+    animation = undefined;
+  }
+
+  function settle() {
+    menu.open = expanded;
+    cancel();
+  }
+
+  function setExpanded(next: boolean, instant = false) {
+    if (next === expanded && !instant) return;
+    expanded = next;
+    if (!expanded && panel.contains(document.activeElement)) toggle.focus({ preventScroll: true });
+    updateState();
+    const style = getComputedStyle(panel);
+    const opacity = menu.open ? style.opacity : '0';
+    const transform = menu.open ? style.transform : 'translateY(-8px)';
+    cancel();
+    const options = motionOptions();
+    if (instant || !options.duration) {
+      settle();
+      return;
+    }
+    menu.open = true;
+    const current = animation = panel.animate({
+      opacity: [opacity, expanded ? '1' : '0'],
+      transform: [transform, expanded ? 'translateY(0)' : 'translateY(-8px)'],
+    }, options);
+    current.onfinish = () => {
+      if (animation === current) settle();
+    };
+  }
+
+  toggle.addEventListener('click', (event) => {
+    event.preventDefault();
+    setExpanded(!expanded);
+  });
+  menu.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && expanded) {
+      event.preventDefault();
+      setExpanded(false);
+      toggle.focus({ preventScroll: true });
+    }
+  });
+  menu.addEventListener('focusout', (event) => {
+    // A pointer activation may blur summary without focusing the tapped link.
+    // A null destination does not mean focus moved outside: closing here would
+    // make the pending link inert before its click can activate navigation.
+    // Actual focus transfers outside and outside clicks still close the panel.
+    if (event.relatedTarget instanceof Node && !menu.contains(event.relatedTarget)) setExpanded(false);
+  });
+  document.addEventListener('click', (event) => {
+    if (event.target instanceof Node && !menu.contains(event.target)) setExpanded(false);
+  });
+  mobile.addEventListener('change', () => {
+    if (!mobile.matches) setExpanded(false, true);
+  });
+  reducedMotion.addEventListener('change', () => {
+    if (reducedMotion.matches) settle();
+  });
+  // Let link activation finish before resetting: making its panel inert inside
+  // the click handler cancels anchor activation in WebKit.
+  // Reset before a page enters the back/forward cache as well as on restoration.
+  window.addEventListener('pagehide', () => setExpanded(false, true));
+  window.addEventListener('pageshow', (event) => {
+    if (event.persisted) setExpanded(false, true);
+  });
+  updateState();
+</script>

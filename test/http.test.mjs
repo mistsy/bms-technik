@@ -22,6 +22,23 @@ test('Worker serwuje pięć kanonicznych dokumentów i blokuje indeksację podgl
     assert.match(response.headers.get('content-type'), /^text\/html/);
     assert.match(response.headers.get('x-robots-tag'), /noindex/);
     const $ = load(await response.text());
+    const stylesheet = await get($('link[rel="stylesheet"]').attr('href'));
+    assert.equal(stylesheet.status, 200);
+    assert.equal(stylesheet.headers.get('cache-control'), 'public, max-age=31536000, immutable');
+    const revalidated = await get($('link[rel="stylesheet"]').attr('href'), {
+      headers: { 'If-None-Match': stylesheet.headers.get('etag') },
+    });
+    assert.equal(revalidated.status, 304);
+    assert.equal(revalidated.headers.get('cache-control'), 'public, max-age=31536000, immutable');
+    const preloads = $('link[rel="preload"][as="font"]');
+    assert.equal(preloads.length, 3);
+    for (const el of preloads.toArray()) {
+      assert.equal($(el).attr('crossorigin'), 'anonymous');
+      const font = await get($(el).attr('href'));
+      assert.equal(font.status, 200);
+      assert.match(font.headers.get('content-type'), /^font\/woff2/);
+      assert.equal(font.headers.get('cache-control'), 'public, max-age=31536000, immutable');
+    }
     assert.equal($('title').text(), pages[origin + path].title[0], path);
     assert.equal($('link[rel=canonical]').attr('href'), origin + path, path);
     if (path !== '/') {
@@ -42,6 +59,9 @@ test('Worker serwuje pięć kanonicznych dokumentów i blokuje indeksację podgl
 });
 
 test('Worker zwraca dokładne Location, rzeczywiste 404 i 410', async () => {
+  const missingAsset = await get('/_astro/missing.12345678.css');
+  assert.equal(missingAsset.status, 404);
+  assert.doesNotMatch(missingAsset.headers.get('cache-control') ?? '', /immutable/);
   for (const [from, to] of [
     ['/?page_id=2', '/'], ['/?page_id=40&utm_medium=qr', '/rekuperacja/?utm_medium=qr'],
     ['/przykladowa-strona', '/'], ['/wp-sitemap.xml', '/sitemap.xml'],

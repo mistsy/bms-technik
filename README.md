@@ -29,6 +29,27 @@ Podgląd działa pod `http://127.0.0.1:8787/`. W drugim terminalu uruchom `npm r
 - `scripts/prepare-audit.mjs` generuje katalog `generated/` na podstawie `manifest.json`, `pages.json`, `assets.json`, `discovery.json` i lokalnego snapshotu. Weryfikuje SHA-256 przed skopiowaniem plików. Artefakty builda powstają w `dist/`.
 - Przy pierwszym renderowaniu strona korzysta z lokalnych fontów Monda i Share Tech oraz oryginalnego logo, ikon i wzoru technicznego. Licencje OFL są w [licenses](licenses/).
 - [Zrzuty referencyjne i podgląd](audit/screenshots/) obejmują wszystkie pięć adresów starej strony na desktopie i mobile. Zrzuty `after-*` pokazują nową stronę główną, kontakt i powiększenie zdjęcia.
+- [Dopracowanie mobile i hero usług](audit/mobile-refinement/README.md) dokumentuje diagnozę WebKit, zdjęcia realizacji i rozszerzone testy przeglądarkowe.
+- [Stabilność layoutu podczas nawigacji](audit/layout-stability/completion.md) zawiera końcową weryfikację fontów, nagłówka i Menu oraz zachowane pomiary poprzedniej sesji.
+- [Korekta charakteru wizualnego](audit/visual-refinement/README.md) zawiera analizę pierwowzoru, porównania przed/po, zrzuty aktualnego builda oraz wyniki testów interakcji.
+- [Końcowy visual polish](audit/final-polish/README.md) dokumentuje miękki cień nagłówka, korektę czerwieni i kadrów hero oraz porównania desktop/mobile.
+
+### Testy przeglądarkowe
+
+```sh
+npx playwright install --with-deps chromium webkit
+npm run test:browser
+```
+
+Playwright buduje stronę i uruchamia lokalny Worker na porcie 8787, jeśli podgląd jeszcze nie działa. Uruchamia Chromium na desktopie i mobile oraz WebKit z profilami iPhone 13 (390×844) i iPhone SE (375×667). Testuje wybór usług na pierwszym ekranie, landscape, rzeczywiste klatki animacji, odwracanie ruchu, dynamiczną wysokość treści, opóźnione ładowanie CSS, menu po nawigacji i powrocie, ARIA, klawiaturę, galerie, ograniczenie animacji oraz działanie bez JavaScriptu. WebKit na Linuxie nie zastępuje testu na fizycznym iOS. Dostępny Chrome można wskazać przez `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH` zamiast instalować przeglądarkę Playwright. Zależność Playwright jest używana wyłącznie do kontroli projektu.
+
+Ten sam zestaw można wykonać na istniejącym Cloudflare Preview bez uruchamiania lokalnego serwera:
+
+```sh
+BMS_BROWSER_ORIGIN=https://refine-restore-original-visual-identity-bms-technik.michal-steff.workers.dev npm run test:browser
+```
+
+Testy przeglądarkowe nie wysyłają formularza kontaktowego. Nie przebudowuj równolegle `dist/` używanego przez lokalny Worker podczas tych testów.
 
 ## Polityka adresów
 

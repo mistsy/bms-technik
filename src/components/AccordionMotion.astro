@@ -1,0 +1,109 @@
+<script>
+  import { motionOptions, reducedMotion } from '../scripts/motion';
+
+  document.querySelectorAll<HTMLElement>('.accordion').forEach((accordion, groupIndex) => {
+    const items = [...accordion.querySelectorAll<HTMLDetailsElement>('details')];
+    const controllers = items.map((details, index) => {
+      const summary = details.querySelector('summary')!;
+      const content = details.querySelector<HTMLElement>('.accordion-content')!;
+      const group = details.getAttribute('name');
+      let expanded = details.open;
+      let heightAnimation: Animation | undefined;
+      let contentAnimation: Animation | undefined;
+      let targetHeight = 0;
+      // Keep native grouping without JS. With JS peers stay open until their
+      // closing animation ends, so the browser must not close them immediately.
+      details.removeAttribute('name');
+      summary.id = `accordion-trigger-${groupIndex}-${index}`;
+      content.id = `accordion-panel-${groupIndex}-${index}`;
+      summary.setAttribute('aria-controls', content.id);
+      content.setAttribute('role', 'region');
+      content.setAttribute('aria-labelledby', summary.id);
+
+      function updateState() {
+        summary.setAttribute('aria-expanded', String(expanded));
+        details.dataset.expanded = String(expanded);
+        content.inert = !expanded;
+      }
+
+      function cancel() {
+        if (heightAnimation) heightAnimation.onfinish = null;
+        heightAnimation?.cancel();
+        contentAnimation?.cancel();
+        heightAnimation = contentAnimation = undefined;
+      }
+
+      function settle() {
+        details.open = expanded;
+        cancel();
+        details.style.removeProperty('height');
+        details.style.removeProperty('overflow');
+      }
+
+      function measureTarget() {
+        const style = getComputedStyle(details);
+        return summary.getBoundingClientRect().height
+          + (expanded ? content.getBoundingClientRect().height : 0)
+          + parseFloat(style.borderTopWidth) + parseFloat(style.borderBottomWidth);
+      }
+
+      function animate() {
+        // Snapshot the rendered state BEFORE cancelling. Reversals resume from
+        // these values, including opacity/transform, rather than flashing 0/1.
+        const startHeight = details.getBoundingClientRect().height;
+        const style = getComputedStyle(content);
+        const opacity = details.open ? style.opacity : '0';
+        const transform = details.open ? style.transform : 'translateY(-4px)';
+        cancel();
+        details.style.height = `${startHeight}px`;
+        details.style.overflow = 'hidden';
+        details.open = true;
+        targetHeight = measureTarget();
+        const options = motionOptions();
+        if (!options.duration) {
+          settle();
+          return;
+        }
+        const animation = heightAnimation = details.animate(
+          { height: [`${startHeight}px`, `${targetHeight}px`] }, options,
+        );
+        contentAnimation = content.animate(
+          { opacity: [opacity, expanded ? '1' : '0'], transform: [transform, expanded ? 'translateY(0)' : 'translateY(-4px)'] }, options,
+        );
+        animation.onfinish = () => {
+          if (heightAnimation === animation) settle();
+        };
+      }
+
+      function setExpanded(next: boolean) {
+        if (next === expanded) return;
+        expanded = next;
+        if (!expanded && content.contains(document.activeElement)) summary.focus({ preventScroll: true });
+        updateState();
+        animate();
+      }
+
+      summary.addEventListener('click', (event) => {
+        event.preventDefault();
+        if (!expanded && group) {
+          controllers.forEach((peer) => {
+            if (peer.group === group && peer.details !== details) peer.setExpanded(false);
+          });
+        }
+        setExpanded(!expanded);
+      });
+      // Observe intrinsic children, not the animated details box. Images, fonts,
+      // changed text and rotation can alter the destination during a transition.
+      const observer = new ResizeObserver(() => {
+        if (heightAnimation && Math.abs(measureTarget() - targetHeight) > 0.5) animate();
+      });
+      observer.observe(summary);
+      observer.observe(content);
+      reducedMotion.addEventListener('change', () => {
+        if (reducedMotion.matches) settle();
+      });
+      updateState();
+      return { details, group, setExpanded };
+    });
+  });
+</script>

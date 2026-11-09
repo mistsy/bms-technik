@@ -1,0 +1,16 @@
+
+> test:http
+> node --test test/http.test.mjs
+
+✔ Worker serwuje pięć kanonicznych dokumentów i blokuje indeksację podglądu (5443.740574ms)
+✔ Worker zwraca dokładne Location, rzeczywiste 404 i 410 (3336.88718ms)
+✔ Worker serwuje wszystkie pliki uploads z MIME i SHA-256 zgodnymi z audytem (13669.398889ms)
+✔ Podgląd bez konfiguracji pokazuje kontakt bezpośredni i odrzuca wysyłkę (513.901191ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 24253.431934

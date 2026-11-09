@@ -1,0 +1,2210 @@
+[
+  {
+    "name": "chromium-desktop",
+    "scenario": "cold-cdp",
+    "pages": [
+      {
+        "path": "/",
+        "direction": "forward",
+        "cls": 0.002761485912181713,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 56.78125,
+            "y": 0,
+            "width": 111.421875,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 2.140625,
+            "y": 0,
+            "width": 2.140625,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 2
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 2
+          },
+          ".service-choice": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 744,
+            "duration": 0,
+            "navigationId": 1273,
+            "paintTime": 622.4000000059605,
+            "presentationTime": 744
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 744,
+            "duration": 0,
+            "navigationId": 1273,
+            "paintTime": 622.4000000059605,
+            "presentationTime": 744
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 640.4000000059605,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 3232,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/rekuperacja/",
+        "direction": "forward",
+        "cls": 0.0058427139998070985,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 56.78125,
+            "y": 0,
+            "width": 111.421875,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 2.140625,
+            "y": 0,
+            "width": 2.140625,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 32.5,
+            "width": 0,
+            "height": 65
+          },
+          ".lead": {
+            "x": 0,
+            "y": 32.5,
+            "width": 30.125,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 696,
+            "duration": 0,
+            "navigationId": 1645,
+            "paintTime": 601.4000000059605,
+            "presentationTime": 696
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 696,
+            "duration": 0,
+            "navigationId": 1645,
+            "paintTime": 601.4000000059605,
+            "presentationTime": 696
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 622.9000000059605,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 5561.699999988079,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/klimatyzacja/",
+        "direction": "forward",
+        "cls": 0.0009292268277391976,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 56.78125,
+            "y": 0,
+            "width": 111.421875,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 2.140625,
+            "y": 0,
+            "width": 2.140625,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 23.09375
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 30.125,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 23.09375
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 744,
+            "duration": 0,
+            "navigationId": 4931,
+            "paintTime": 654.5,
+            "presentationTime": 744
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 744,
+            "duration": 0,
+            "navigationId": 4931,
+            "paintTime": 654.5,
+            "presentationTime": 744
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 675.3000000119209,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 3549,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/kontakt/",
+        "direction": "forward",
+        "cls": 0.0013583968701774691,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 56.78125,
+            "y": 0,
+            "width": 111.421875,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 2.140625,
+            "y": 0,
+            "width": 2.140625,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 40.625,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 40.625,
+            "height": 0
+          },
+          ".contact-grid": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 648,
+            "duration": 0,
+            "navigationId": 5213,
+            "paintTime": 552.9000000059605,
+            "presentationTime": 648
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 648,
+            "duration": 0,
+            "navigationId": 5213,
+            "paintTime": 552.9000000059605,
+            "presentationTime": 648
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 576,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 1804.4000000059605,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/polityka-prywatnosci/",
+        "direction": "forward",
+        "cls": 0.0009252318431712963,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 56.78125,
+            "y": 0,
+            "width": 111.421875,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 2.140625,
+            "y": 0,
+            "width": 2.140625,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 195.125,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 680,
+            "duration": 0,
+            "navigationId": 9437,
+            "paintTime": 557.0999999940395,
+            "presentationTime": 680
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 680,
+            "duration": 0,
+            "navigationId": 9437,
+            "paintTime": 557.0999999940395,
+            "presentationTime": 680
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 568.9000000059605,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 1803.699999988079,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/kontakt/",
+        "direction": "back",
+        "cls": 0.0013583968701774691,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 56.78125,
+            "y": 0,
+            "width": 111.421875,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 2.140625,
+            "y": 0,
+            "width": 2.140625,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 40.625,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 40.625,
+            "height": 0
+          },
+          ".contact-grid": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 596,
+            "duration": 0,
+            "navigationId": 3664,
+            "paintTime": 511.5,
+            "presentationTime": 596
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 596,
+            "duration": 0,
+            "navigationId": 3664,
+            "paintTime": 511.5,
+            "presentationTime": 596
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 525.8999999761581,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 1779.199999988079,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/klimatyzacja/",
+        "direction": "back",
+        "cls": 0.0009292268277391976,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 56.78125,
+            "y": 0,
+            "width": 111.421875,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 2.140625,
+            "y": 0,
+            "width": 2.140625,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 23.09375
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 30.125,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 23.09375
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 748,
+            "duration": 0,
+            "navigationId": 3740,
+            "paintTime": 639.8000000119209,
+            "presentationTime": 748
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 748,
+            "duration": 0,
+            "navigationId": 3740,
+            "paintTime": 639.8000000119209,
+            "presentationTime": 748
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 659,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 3532.5999999940395,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/rekuperacja/",
+        "direction": "back",
+        "cls": 0.0058427139998070985,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 56.78125,
+            "y": 0,
+            "width": 111.421875,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 2.140625,
+            "y": 0,
+            "width": 2.140625,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 32.5,
+            "width": 0,
+            "height": 65
+          },
+          ".lead": {
+            "x": 0,
+            "y": 32.5,
+            "width": 30.125,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 708,
+            "duration": 0,
+            "navigationId": 5345,
+            "paintTime": 626.1999999880791,
+            "presentationTime": 708
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 708,
+            "duration": 0,
+            "navigationId": 5345,
+            "paintTime": 626.1999999880791,
+            "presentationTime": 708
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 647.5999999940395,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 5575.9000000059605,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/",
+        "direction": "back",
+        "cls": 0.002761485912181713,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".desktop-nav": {
+            "x": 56.78125,
+            "y": 0,
+            "width": 111.421875,
+            "height": 0
+          },
+          ".header-phone": {
+            "x": 2.140625,
+            "y": 0,
+            "width": 2.140625,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 2
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 2
+          },
+          ".service-choice": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 620,
+            "duration": 0,
+            "navigationId": 3411,
+            "paintTime": 534.0999999940395,
+            "presentationTime": 620
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 620,
+            "duration": 0,
+            "navigationId": 3411,
+            "paintTime": 534.0999999940395,
+            "presentationTime": 620
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 560.1999999880791,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 3179.2999999821186,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "chromium-mobile",
+    "scenario": "cold-cdp",
+    "pages": [
+      {
+        "path": "/",
+        "direction": "forward",
+        "cls": 0.0055128118738549765,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 54.375
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 22.859375,
+            "y": 0,
+            "width": 45.71875,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 26.390625
+          },
+          ".service-choice": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 656,
+            "duration": 0,
+            "navigationId": 6603,
+            "paintTime": 602.3000000119209,
+            "presentationTime": 656
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 656,
+            "duration": 0,
+            "navigationId": 6603,
+            "paintTime": 602.3000000119209,
+            "presentationTime": 656
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 616.6000000238419,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 3165.4000000059605,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/rekuperacja/",
+        "direction": "forward",
+        "cls": 0.0942709741664694,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 277.15625
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 87.390625
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 40
+          },
+          ".lead": {
+            "x": 0,
+            "y": 40,
+            "width": 0,
+            "height": 26.390625
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 66.390625,
+            "width": 0,
+            "height": 21
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 66.390625,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 87.390625,
+            "width": 0,
+            "height": 35
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 668,
+            "duration": 0,
+            "navigationId": 3893,
+            "paintTime": 608.6999999880791,
+            "presentationTime": 668
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 668,
+            "duration": 0,
+            "navigationId": 3893,
+            "paintTime": 608.6999999880791,
+            "presentationTime": 668
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 623.6999999880791,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 4623.699999988079,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/klimatyzacja/",
+        "direction": "forward",
+        "cls": 0.013970848674696298,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 146.078125
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 21
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 21
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 21,
+            "width": 0,
+            "height": 58.09375
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 712,
+            "duration": 0,
+            "navigationId": 8486,
+            "paintTime": 665,
+            "presentationTime": 712
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 712,
+            "duration": 0,
+            "navigationId": 8486,
+            "paintTime": 665,
+            "presentationTime": 712
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 694.5,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 2846.7999999821186,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/kontakt/",
+        "direction": "forward",
+        "cls": 0.0009263454756873593,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".contact-grid": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 600,
+            "duration": 0,
+            "navigationId": 5147,
+            "paintTime": 563.5,
+            "presentationTime": 600
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 600,
+            "duration": 0,
+            "navigationId": 5147,
+            "paintTime": 563.5,
+            "presentationTime": 600
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 575.7000000178814,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 1800.5,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/polityka-prywatnosci/",
+        "direction": "forward",
+        "cls": 0.06085694434605623,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 92.78125
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 40
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 77.390625,
+            "height": 40
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 564,
+            "duration": 0,
+            "navigationId": 4143,
+            "paintTime": 528.7000000178814,
+            "presentationTime": 564
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 564,
+            "duration": 0,
+            "navigationId": 4143,
+            "paintTime": 528.7000000178814,
+            "presentationTime": 564
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 535.0999999940395,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 1780.9000000059605,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/kontakt/",
+        "direction": "back",
+        "cls": 0.0009263454756873593,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".contact-grid": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 7
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 576,
+            "duration": 0,
+            "navigationId": 5586,
+            "paintTime": 538.9000000059605,
+            "presentationTime": 576
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 576,
+            "duration": 0,
+            "navigationId": 5586,
+            "paintTime": 538.9000000059605,
+            "presentationTime": 576
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 554.6999999880791,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 1799.0999999940395,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/klimatyzacja/",
+        "direction": "back",
+        "cls": 0.013970848674696298,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 146.078125
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 21
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".lead": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 21
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 21,
+            "width": 0,
+            "height": 58.09375
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 648,
+            "duration": 0,
+            "navigationId": 6148,
+            "paintTime": 611.5,
+            "presentationTime": 648
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 648,
+            "duration": 0,
+            "navigationId": 6148,
+            "paintTime": 611.5,
+            "presentationTime": 648
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 631.0999999940395,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 2811.699999988079,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/rekuperacja/",
+        "direction": "back",
+        "cls": 0.0942709741664694,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 277.15625
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 87.390625
+          },
+          "h1": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 40
+          },
+          ".lead": {
+            "x": 0,
+            "y": 40,
+            "width": 0,
+            "height": 26.390625
+          },
+          ".intro-photo": {
+            "x": 0,
+            "y": 66.390625,
+            "width": 0,
+            "height": 21
+          },
+          ".intro-photo img": {
+            "x": 0,
+            "y": 66.390625,
+            "width": 0,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 87.390625,
+            "width": 0,
+            "height": 35
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 692,
+            "duration": 0,
+            "navigationId": 9034,
+            "paintTime": 642.4000000059605,
+            "presentationTime": 692
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 692,
+            "duration": 0,
+            "navigationId": 9034,
+            "paintTime": 642.4000000059605,
+            "presentationTime": 692
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 662.5999999940395,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 4646.699999988079,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/",
+        "direction": "back",
+        "cls": 0.0055128118738549765,
+        "changes": {
+          ".site-header": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".header-inner": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".brand img": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          ".mobile-menu summary": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-label": {
+            "x": 2.53125,
+            "y": 0,
+            "width": 2.53125,
+            "height": 0
+          },
+          ".menu-glyph": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "main": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 54.375
+          },
+          "main > :first-child": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "h1": {
+            "x": 22.859375,
+            "y": 0,
+            "width": 45.71875,
+            "height": 0
+          },
+          "main > section:nth-of-type(2)": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 26.390625
+          },
+          ".service-choice": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "paints": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 600,
+            "duration": 0,
+            "navigationId": 5002,
+            "paintTime": 557,
+            "presentationTime": 600
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 600,
+            "duration": 0,
+            "navigationId": 5002,
+            "paintTime": 557,
+            "presentationTime": 600
+          }
+        ],
+        "fonts": [
+          {
+            "type": "loading",
+            "time": 572.0999999940395,
+            "faces": []
+          },
+          {
+            "type": "loadingdone",
+            "time": 3203.5999999940395,
+            "faces": [
+              {
+                "family": "Share Tech",
+                "weight": "400",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              },
+              {
+                "family": "Monda",
+                "weight": "400 700",
+                "status": "loaded"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

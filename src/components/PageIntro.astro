@@ -1,9 +1,14 @@
 ---
 import Icon from './Icon.astro';
-interface Props { label: string; title: string; intro?: string; index?: string; }
-const { label, title, intro, index } = Astro.props;
+interface Props {
+  label: string;
+  title: string;
+  intro?: string;
+  photo?: { source: string; alt: string; caption: string; position: string };
+}
+const { label, title, intro, photo } = Astro.props;
 ---
-<section class="page-intro blueprint">
+<section class:list={['page-intro', 'blueprint', { 'service-intro': photo }]}>
   <div class="shell intro-inner">
     <div>
       <a class="back-link" href="/"><Icon name="left" /> Strona główna</a>
@@ -11,6 +16,12 @@ const { label, title, intro, index } = Astro.props;
       <h1>{title}</h1>
       {intro && <p class="lead">{intro}</p>}
     </div>
-    {index && <span class="intro-index" aria-hidden="true">{index}</span>}
+    {photo && <figure class="intro-photo" style={'--photo-position:' + photo.position}>
+      <img src={photo.source + '-768x768.jpg'}
+        srcset={`${photo.source}-300x300.jpg 300w, ${photo.source}-768x768.jpg 768w, ${photo.source}-1080x1080.jpg 1080w`}
+        sizes="(max-width: 42rem) 91vw, (max-width: 80rem) 45vw, 560px"
+        alt={photo.alt} width="1080" height="1080" loading="eager" fetchpriority="high" decoding="async" />
+      <figcaption>{photo.caption}</figcaption>
+    </figure>}
   </div>
 </section>

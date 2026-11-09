@@ -1,0 +1,691 @@
+{
+  "commit": "b391b42c1463ea299ab2d4602ffb8202a2b0aae7",
+  "results": [
+    {
+      "origin": "https://5e654bc5-bms-technik.michal-steff.workers.dev",
+      "pages": [
+        {
+          "path": "/",
+          "status": 200,
+          "sha256": "cadb276ba5a3cf3aea1538043315ee1acd760fb9db11fb84771dd9a8e66a8b9a",
+          "matchesLocal": true,
+          "canonical": "https://bmstechnik.pl/",
+          "resources": [
+            {
+              "href": "/_astro/monda-latin.CA-x7JvY.woff2",
+              "status": 200,
+              "bytes": 22288,
+              "sha256": "a4fb4459c45dff089fcbd84e119ee5ac8fb200fb4b0a86cc5ab4f7690f187173",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"27e2547a6a7cde3d69910d49f589b3ff\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/monda-polish.CtvPb8kL.woff2",
+              "status": 200,
+              "bytes": 3052,
+              "sha256": "532a1cfea4914f17ae1692d02197a6c543ac5618450bcd2f16b8a4e63b5143ce",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "MISS",
+                "content-type": "font/woff2",
+                "etag": "\"463e0de0d4bb2f7fc9bfcb64328d948b\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/share-tech.Coc7_46J.woff2",
+              "status": 200,
+              "bytes": 15048,
+              "sha256": "0907d6045312b73d5afdb7c6b7bfff8dd5eaab56dbcf6ba7d72dfc6af118d8ef",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"abebfbb247f56ff289acd91dc1675de6\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/Layout.uM0hqpEV.css",
+              "status": 200,
+              "bytes": 22128,
+              "sha256": "0ec73b09eec807d39e428cdcd6485e7dd185080823cc935c64c22cd5aec71310",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "MISS",
+                "content-encoding": "br",
+                "content-type": "text/css",
+                "etag": "W/\"d850e2e5319fbafaae6cfa4302ed730d\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "path": "/rekuperacja/",
+          "status": 200,
+          "sha256": "801188766c88694efc396a970f2dcc5cfa6c9cd679860b100d9fb7bc867b447a",
+          "matchesLocal": true,
+          "canonical": "https://bmstechnik.pl/rekuperacja/",
+          "resources": [
+            {
+              "href": "/_astro/monda-latin.CA-x7JvY.woff2",
+              "status": 200,
+              "bytes": 22288,
+              "sha256": "a4fb4459c45dff089fcbd84e119ee5ac8fb200fb4b0a86cc5ab4f7690f187173",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"27e2547a6a7cde3d69910d49f589b3ff\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/monda-polish.CtvPb8kL.woff2",
+              "status": 200,
+              "bytes": 3052,
+              "sha256": "532a1cfea4914f17ae1692d02197a6c543ac5618450bcd2f16b8a4e63b5143ce",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"463e0de0d4bb2f7fc9bfcb64328d948b\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/share-tech.Coc7_46J.woff2",
+              "status": 200,
+              "bytes": 15048,
+              "sha256": "0907d6045312b73d5afdb7c6b7bfff8dd5eaab56dbcf6ba7d72dfc6af118d8ef",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"abebfbb247f56ff289acd91dc1675de6\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/Layout.uM0hqpEV.css",
+              "status": 200,
+              "bytes": 22128,
+              "sha256": "0ec73b09eec807d39e428cdcd6485e7dd185080823cc935c64c22cd5aec71310",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-encoding": "br",
+                "content-type": "text/css",
+                "etag": "W/\"d850e2e5319fbafaae6cfa4302ed730d\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "path": "/klimatyzacja/",
+          "status": 200,
+          "sha256": "da377bdbaf8a433fcef9d66cf34eb3984417607c91c32fb1a06db9034aa95bc8",
+          "matchesLocal": true,
+          "canonical": "https://bmstechnik.pl/klimatyzacja/",
+          "resources": [
+            {
+              "href": "/_astro/monda-latin.CA-x7JvY.woff2",
+              "status": 200,
+              "bytes": 22288,
+              "sha256": "a4fb4459c45dff089fcbd84e119ee5ac8fb200fb4b0a86cc5ab4f7690f187173",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"27e2547a6a7cde3d69910d49f589b3ff\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/monda-polish.CtvPb8kL.woff2",
+              "status": 200,
+              "bytes": 3052,
+              "sha256": "532a1cfea4914f17ae1692d02197a6c543ac5618450bcd2f16b8a4e63b5143ce",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"463e0de0d4bb2f7fc9bfcb64328d948b\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/share-tech.Coc7_46J.woff2",
+              "status": 200,
+              "bytes": 15048,
+              "sha256": "0907d6045312b73d5afdb7c6b7bfff8dd5eaab56dbcf6ba7d72dfc6af118d8ef",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"abebfbb247f56ff289acd91dc1675de6\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/Layout.uM0hqpEV.css",
+              "status": 200,
+              "bytes": 22128,
+              "sha256": "0ec73b09eec807d39e428cdcd6485e7dd185080823cc935c64c22cd5aec71310",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-encoding": "br",
+                "content-type": "text/css",
+                "etag": "W/\"d850e2e5319fbafaae6cfa4302ed730d\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "path": "/kontakt/",
+          "status": 200,
+          "sha256": "dae0f086474554c183bcee99db63a6f950e39e45182682154ca816ef483c6c5e",
+          "matchesLocal": true,
+          "canonical": "https://bmstechnik.pl/kontakt/",
+          "resources": [
+            {
+              "href": "/_astro/monda-latin.CA-x7JvY.woff2",
+              "status": 200,
+              "bytes": 22288,
+              "sha256": "a4fb4459c45dff089fcbd84e119ee5ac8fb200fb4b0a86cc5ab4f7690f187173",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"27e2547a6a7cde3d69910d49f589b3ff\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/monda-polish.CtvPb8kL.woff2",
+              "status": 200,
+              "bytes": 3052,
+              "sha256": "532a1cfea4914f17ae1692d02197a6c543ac5618450bcd2f16b8a4e63b5143ce",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"463e0de0d4bb2f7fc9bfcb64328d948b\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/share-tech.Coc7_46J.woff2",
+              "status": 200,
+              "bytes": 15048,
+              "sha256": "0907d6045312b73d5afdb7c6b7bfff8dd5eaab56dbcf6ba7d72dfc6af118d8ef",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"abebfbb247f56ff289acd91dc1675de6\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/Layout.uM0hqpEV.css",
+              "status": 200,
+              "bytes": 22128,
+              "sha256": "0ec73b09eec807d39e428cdcd6485e7dd185080823cc935c64c22cd5aec71310",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-encoding": "br",
+                "content-type": "text/css",
+                "etag": "W/\"d850e2e5319fbafaae6cfa4302ed730d\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "path": "/polityka-prywatnosci/",
+          "status": 200,
+          "sha256": "222c9ab856e390f294589e31eab0acfa60dd3d99c445a671b96caac2bf79ac04",
+          "matchesLocal": true,
+          "canonical": "https://bmstechnik.pl/polityka-prywatnosci/",
+          "resources": [
+            {
+              "href": "/_astro/monda-latin.CA-x7JvY.woff2",
+              "status": 200,
+              "bytes": 22288,
+              "sha256": "a4fb4459c45dff089fcbd84e119ee5ac8fb200fb4b0a86cc5ab4f7690f187173",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"27e2547a6a7cde3d69910d49f589b3ff\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/monda-polish.CtvPb8kL.woff2",
+              "status": 200,
+              "bytes": 3052,
+              "sha256": "532a1cfea4914f17ae1692d02197a6c543ac5618450bcd2f16b8a4e63b5143ce",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"463e0de0d4bb2f7fc9bfcb64328d948b\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/share-tech.Coc7_46J.woff2",
+              "status": 200,
+              "bytes": 15048,
+              "sha256": "0907d6045312b73d5afdb7c6b7bfff8dd5eaab56dbcf6ba7d72dfc6af118d8ef",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"abebfbb247f56ff289acd91dc1675de6\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/Layout.uM0hqpEV.css",
+              "status": 200,
+              "bytes": 22128,
+              "sha256": "0ec73b09eec807d39e428cdcd6485e7dd185080823cc935c64c22cd5aec71310",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-encoding": "br",
+                "content-type": "text/css",
+                "etag": "W/\"d850e2e5319fbafaae6cfa4302ed730d\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            }
+          ]
+        }
+      ],
+      "missingStatus": 404,
+      "missingCache": "public, max-age=0, must-revalidate",
+      "retiredStatus": 410,
+      "redirect": {
+        "status": 301,
+        "location": "https://5e654bc5-bms-technik.michal-steff.workers.dev/rekuperacja/"
+      },
+      "robots": "User-agent: *\nDisallow: /\n"
+    },
+    {
+      "origin": "https://refine-restore-original-visual-identity-bms-technik.michal-steff.workers.dev",
+      "pages": [
+        {
+          "path": "/",
+          "status": 200,
+          "sha256": "cadb276ba5a3cf3aea1538043315ee1acd760fb9db11fb84771dd9a8e66a8b9a",
+          "matchesLocal": true,
+          "canonical": "https://bmstechnik.pl/",
+          "resources": [
+            {
+              "href": "/_astro/monda-latin.CA-x7JvY.woff2",
+              "status": 200,
+              "bytes": 22288,
+              "sha256": "a4fb4459c45dff089fcbd84e119ee5ac8fb200fb4b0a86cc5ab4f7690f187173",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"27e2547a6a7cde3d69910d49f589b3ff\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/monda-polish.CtvPb8kL.woff2",
+              "status": 200,
+              "bytes": 3052,
+              "sha256": "532a1cfea4914f17ae1692d02197a6c543ac5618450bcd2f16b8a4e63b5143ce",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"463e0de0d4bb2f7fc9bfcb64328d948b\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/share-tech.Coc7_46J.woff2",
+              "status": 200,
+              "bytes": 15048,
+              "sha256": "0907d6045312b73d5afdb7c6b7bfff8dd5eaab56dbcf6ba7d72dfc6af118d8ef",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"abebfbb247f56ff289acd91dc1675de6\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/Layout.uM0hqpEV.css",
+              "status": 200,
+              "bytes": 22128,
+              "sha256": "0ec73b09eec807d39e428cdcd6485e7dd185080823cc935c64c22cd5aec71310",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-encoding": "br",
+                "content-type": "text/css",
+                "etag": "W/\"d850e2e5319fbafaae6cfa4302ed730d\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "path": "/rekuperacja/",
+          "status": 200,
+          "sha256": "801188766c88694efc396a970f2dcc5cfa6c9cd679860b100d9fb7bc867b447a",
+          "matchesLocal": true,
+          "canonical": "https://bmstechnik.pl/rekuperacja/",
+          "resources": [
+            {
+              "href": "/_astro/monda-latin.CA-x7JvY.woff2",
+              "status": 200,
+              "bytes": 22288,
+              "sha256": "a4fb4459c45dff089fcbd84e119ee5ac8fb200fb4b0a86cc5ab4f7690f187173",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"27e2547a6a7cde3d69910d49f589b3ff\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/monda-polish.CtvPb8kL.woff2",
+              "status": 200,
+              "bytes": 3052,
+              "sha256": "532a1cfea4914f17ae1692d02197a6c543ac5618450bcd2f16b8a4e63b5143ce",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"463e0de0d4bb2f7fc9bfcb64328d948b\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/share-tech.Coc7_46J.woff2",
+              "status": 200,
+              "bytes": 15048,
+              "sha256": "0907d6045312b73d5afdb7c6b7bfff8dd5eaab56dbcf6ba7d72dfc6af118d8ef",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"abebfbb247f56ff289acd91dc1675de6\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/Layout.uM0hqpEV.css",
+              "status": 200,
+              "bytes": 22128,
+              "sha256": "0ec73b09eec807d39e428cdcd6485e7dd185080823cc935c64c22cd5aec71310",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-encoding": "br",
+                "content-type": "text/css",
+                "etag": "W/\"d850e2e5319fbafaae6cfa4302ed730d\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "path": "/klimatyzacja/",
+          "status": 200,
+          "sha256": "da377bdbaf8a433fcef9d66cf34eb3984417607c91c32fb1a06db9034aa95bc8",
+          "matchesLocal": true,
+          "canonical": "https://bmstechnik.pl/klimatyzacja/",
+          "resources": [
+            {
+              "href": "/_astro/monda-latin.CA-x7JvY.woff2",
+              "status": 200,
+              "bytes": 22288,
+              "sha256": "a4fb4459c45dff089fcbd84e119ee5ac8fb200fb4b0a86cc5ab4f7690f187173",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"27e2547a6a7cde3d69910d49f589b3ff\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/monda-polish.CtvPb8kL.woff2",
+              "status": 200,
+              "bytes": 3052,
+              "sha256": "532a1cfea4914f17ae1692d02197a6c543ac5618450bcd2f16b8a4e63b5143ce",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"463e0de0d4bb2f7fc9bfcb64328d948b\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/share-tech.Coc7_46J.woff2",
+              "status": 200,
+              "bytes": 15048,
+              "sha256": "0907d6045312b73d5afdb7c6b7bfff8dd5eaab56dbcf6ba7d72dfc6af118d8ef",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"abebfbb247f56ff289acd91dc1675de6\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/Layout.uM0hqpEV.css",
+              "status": 200,
+              "bytes": 22128,
+              "sha256": "0ec73b09eec807d39e428cdcd6485e7dd185080823cc935c64c22cd5aec71310",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-encoding": "br",
+                "content-type": "text/css",
+                "etag": "W/\"d850e2e5319fbafaae6cfa4302ed730d\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "path": "/kontakt/",
+          "status": 200,
+          "sha256": "dae0f086474554c183bcee99db63a6f950e39e45182682154ca816ef483c6c5e",
+          "matchesLocal": true,
+          "canonical": "https://bmstechnik.pl/kontakt/",
+          "resources": [
+            {
+              "href": "/_astro/monda-latin.CA-x7JvY.woff2",
+              "status": 200,
+              "bytes": 22288,
+              "sha256": "a4fb4459c45dff089fcbd84e119ee5ac8fb200fb4b0a86cc5ab4f7690f187173",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"27e2547a6a7cde3d69910d49f589b3ff\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/monda-polish.CtvPb8kL.woff2",
+              "status": 200,
+              "bytes": 3052,
+              "sha256": "532a1cfea4914f17ae1692d02197a6c543ac5618450bcd2f16b8a4e63b5143ce",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"463e0de0d4bb2f7fc9bfcb64328d948b\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/share-tech.Coc7_46J.woff2",
+              "status": 200,
+              "bytes": 15048,
+              "sha256": "0907d6045312b73d5afdb7c6b7bfff8dd5eaab56dbcf6ba7d72dfc6af118d8ef",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"abebfbb247f56ff289acd91dc1675de6\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/Layout.uM0hqpEV.css",
+              "status": 200,
+              "bytes": 22128,
+              "sha256": "0ec73b09eec807d39e428cdcd6485e7dd185080823cc935c64c22cd5aec71310",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-encoding": "br",
+                "content-type": "text/css",
+                "etag": "W/\"d850e2e5319fbafaae6cfa4302ed730d\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            }
+          ]
+        },
+        {
+          "path": "/polityka-prywatnosci/",
+          "status": 200,
+          "sha256": "222c9ab856e390f294589e31eab0acfa60dd3d99c445a671b96caac2bf79ac04",
+          "matchesLocal": true,
+          "canonical": "https://bmstechnik.pl/polityka-prywatnosci/",
+          "resources": [
+            {
+              "href": "/_astro/monda-latin.CA-x7JvY.woff2",
+              "status": 200,
+              "bytes": 22288,
+              "sha256": "a4fb4459c45dff089fcbd84e119ee5ac8fb200fb4b0a86cc5ab4f7690f187173",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"27e2547a6a7cde3d69910d49f589b3ff\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/monda-polish.CtvPb8kL.woff2",
+              "status": 200,
+              "bytes": 3052,
+              "sha256": "532a1cfea4914f17ae1692d02197a6c543ac5618450bcd2f16b8a4e63b5143ce",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"463e0de0d4bb2f7fc9bfcb64328d948b\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/share-tech.Coc7_46J.woff2",
+              "status": 200,
+              "bytes": 15048,
+              "sha256": "0907d6045312b73d5afdb7c6b7bfff8dd5eaab56dbcf6ba7d72dfc6af118d8ef",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-type": "font/woff2",
+                "etag": "\"abebfbb247f56ff289acd91dc1675de6\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            },
+            {
+              "href": "/_astro/Layout.uM0hqpEV.css",
+              "status": 200,
+              "bytes": 22128,
+              "sha256": "0ec73b09eec807d39e428cdcd6485e7dd185080823cc935c64c22cd5aec71310",
+              "headers": {
+                "cache-control": "public, max-age=31536000, immutable",
+                "cf-cache-status": "HIT",
+                "content-encoding": "br",
+                "content-type": "text/css",
+                "etag": "W/\"d850e2e5319fbafaae6cfa4302ed730d\""
+              },
+              "conditionalStatus": 304,
+              "conditionalCache": "public, max-age=31536000, immutable"
+            }
+          ]
+        }
+      ],
+      "missingStatus": 404,
+      "missingCache": "public, max-age=0, must-revalidate",
+      "retiredStatus": 410,
+      "redirect": {
+        "status": 301,
+        "location": "https://refine-restore-original-visual-identity-bms-technik.michal-steff.workers.dev/rekuperacja/"
+      },
+      "robots": "User-agent: *\nDisallow: /\n"
+    }
+  ]
+}

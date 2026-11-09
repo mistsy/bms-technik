@@ -2,8 +2,12 @@
 import Header from './Header.astro';
 import Footer from './Footer.astro';
 import Lightbox from './Lightbox.astro';
+import AccordionMotion from './AccordionMotion.astro';
 import { business, media } from '../data/site';
 import '../styles/site.css';
+import mondaLatin from '../../generated/public/fonts/monda-latin.woff2?url';
+import mondaPolish from '../fonts/monda-polish.woff2?url';
+import shareTech from '../../generated/public/fonts/share-tech.woff2?url';
 
 interface Props {
   path?: keyof typeof business;
@@ -19,6 +23,11 @@ const page = path ? business[path] : undefined;
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- All three faces occur above the fold, including Monda's Polish glyphs
+         inside Share Tech headings. Match font fetches' anonymous CORS mode. -->
+    <link rel="preload" href={mondaLatin} as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href={mondaPolish} as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href={shareTech} as="font" type="font/woff2" crossorigin="anonymous" />
     <title>{page?.title ?? title}</title>
     <meta name="description" content={description} />
     <meta name="robots" content={page ? 'max-image-preview:large' : 'noindex'} />
@@ -34,5 +43,6 @@ const page = path ? business[path] : undefined;
     <main id="tresc" tabindex="-1"><slot /></main>
     <Footer />
     {hasGallery && <Lightbox />}
+    <AccordionMotion />
   </body>
 </html>
